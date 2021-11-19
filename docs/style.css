@@ -4,115 +4,14 @@
     box-sizing: border-box; 
   }
   body {
-    /* border: solid .35vmin orangered; */
     border: 2vmin solid orangered;
     border-image: url(https://bl6pap003files.storage.live.com/y4m0zNYgu8k5Hkk9U8ZNxH1hYokWIAMlulHwZojFMzXW2OkcXYhAw6OsjAeVp3tEpBAunxb6NhGiBevVez-EyX0qs0szRl3vrrR24kHue9NtMl3haedwSb9UmEI7EbvvbTTuK4-nqTpem_mYEJlpmpaQq4XXK9Ltg846nrmilxNgtFBeIJjKTPqRuwziTTYsEcr?width=6077&height=8477&cropmode=none) 10% round;
     background: ivory;
     background-attachment: fixed;
       background-size: initial;
-    /* height: 100vw; */
+    
     font-family: "Helvetica", "Arial", sans-serif;
     height: 125vh;
-  }
-  /* MENU */
-  
-  
-  .icon {
-    z-index: 2;
-    position: fixed;
-  /*   background: black; */
-    width: 55px;
-    margin-top: 4vmin;
-    margin-left: 10vmin;
-    display: grid;
-    justify-content: center;
-    padding: 0.2rem;
-    
-  }
-  .icon img {
-    width: 66px;
-    transition: all  2s ease-in-out;
-  }
-  .icon:hover img{
-    transform: rotate(360deg); 
-  /*   width: 55px; */
-  }
-  .icon p {
-  /*   color: lightsteelblue;  */
-    font-style: italic;
-    font-size: 0.4rem;
-    text-align: center;
-  }
-  /* DROPDOWN */
-  
-  .menu {
-    display:none;
-    position: fixed;
-    background: lightsteelblue;
-    text-align: right;
-    width: 66px;
-    height: 175px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-between;
-    height: 0;
-    overflow: hidden;
-    transition: all 0.7s;
-  }
-  .top {
-    transition: all 0.2s;
-  }
-
-  .icon:hover .menu {
-    height: 174px;
-  }
-  .menu a {
-    text-decoration: none;
-    color: rgb(231, 77, 43);
-    font-size: 0.75rem;
-    padding: 0.4vmin;
-    transition: all 0.7s;
-  }
-  
-  .menu ul {
-    display: flex;
-    list-style-type: none;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 100%;
-  }
-  .home:hover{
-    font-style:italic;
-}
-  .ow:hover {
-    font-style: italic;
-  }
-  .works:hover {
-    font-style: italic;
-  }
-  .bio:hover {
-    font-style: italic;
-  }
-  .archive:hover {
-    font-style: italic;
-  }
-  .sub-menu {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-between;
-    height: 0;
-    overflow: hidden;
-    transition: all 0.5s;
-  }
-  .sub-menu a {
-    color: rgb(231, 77, 43);
-    text-align: center;
-    font-style: italic;
-  }
-  .works:hover .sub-menu {
-    height: 4rem;
   }
   
   /* MIDDLE */

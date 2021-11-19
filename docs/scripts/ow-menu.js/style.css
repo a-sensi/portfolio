@@ -1,0 +1,62 @@
+
+
+.ow img{
+    display: grid;
+    justify-content: center;
+    padding: 0.2rem;
+    height: 12vmin;
+    margin: 0 auto;
+  }
+  
+  .ow-menu-block {
+    text-decoration: none;
+    background: darkolivegreen;
+    text-align: center;
+    max-width: 75vmin;
+    height: 2.4vmin;
+    margin: 0 auto;
+    
+    
+  }
+  
+  .ow-menu-block a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: lightsteelblue;
+    width: 24vmin;
+    font-size: 2vmin;
+  }
+  
+  .ow-menu-block ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    list-style-type: none;
+    
+  }
+  
+  .ow-sub-menu {
+    display: flex;
+    background: darkgreen;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 0;
+    font-size: 2vmin;
+    overflow: hidden;
+    transition: all 0.4s;
+  }
+  .ow-sub-menu a {
+    color: lightsteelblue;
+    transition: all  4s;
+  }
+  a:hover {
+    font-style: italic;
+  }
+  .short:hover .ow-sub-menu {
+    height: 2vmin;
+    z-index: -4;
+  }
+  
