@@ -58,9 +58,14 @@
     margin: 2vmin;
     font-size: 2vmin;
   }
-  
+  .star{
+/* background: pink; */
+width: max-content;
+margin: 0 auto;
+  }
   .star img{
     height: 5vmin;
+    
     width: 5vmin;
     object-fit: cover;
     transition: transform 2s ease-in-out;
