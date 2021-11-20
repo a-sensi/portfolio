@@ -7,17 +7,17 @@ let mainMenu = `
             <p class="top"></p>
             <nav class="menu">
              <ul>
-                <li> <a class="home" href="/docs/index.html">Home</a></li>
-                <li class="works"><a href="/docs/works">Works</a>
+                <li> <a class="home" href="/portfolio/index.html">Home</a></li>
+                <li class="works"><a href="/portfolio/works">Works</a>
                   <nav class="sub-menu">
-                    <a href="/docs/w_illu">Illustration</a>
-                    <a href="/docs/w_comic">Comics</a>
-                    <a href="/docs/w_animation">Animation</a>
+                    <a href="/portfolio/w_illu">Illustration</a>
+                    <a href="/portfolio/w_comic">Comics</a>
+                    <a href="/portfolio/w_animation">Animation</a>
                   </nav>
                 </li>
-                <li><a class="ow" href="/docs/otherworld">OtherWorld</a></li>
-                <li><a class="bio" href="/docs/bio/">Bio</a></li>
-                <li><a class="archive" href="/docs/archive">Archive</a></li>
+                <li><a class="ow" href="/portfolio/otherworld">OtherWorld</a></li>
+                <li><a class="bio" href="/portfolio/bio/">Bio</a></li>
+                <li><a class="archive" href="/portfolio/archive">Archive</a></li>
               </ul>
             </nav>
       
