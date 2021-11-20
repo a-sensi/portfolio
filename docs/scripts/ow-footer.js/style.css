@@ -1,0 +1,25 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+  
+  font-family:"Helvetica", "Arial", sans-serif;
+}
+
+.foot-container{
+/* background: pink; */
+  margin-left: .2vmin;
+/*   margin-top: .4vmin; */
+  width: max-content;
+  padding: 1vmin;
+  position:fixed;
+  bottom:2vmin;
+  left: 2vmin;
+  
+}
+h5{
+  color: lightsteelblue;
+  font-size: 1.5vmin;
+  font-style: italic;
+  text-align: justify;
+}
+  
