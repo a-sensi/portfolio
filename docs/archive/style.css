@@ -2,8 +2,7 @@
 
 body{
   background: ivory;
-  border: 2vmin solid orangered;
-    border-image: url(https://bl6pap003files.storage.live.com/y4m0zNYgu8k5Hkk9U8ZNxH1hYokWIAMlulHwZojFMzXW2OkcXYhAw6OsjAeVp3tEpBAunxb6NhGiBevVez-EyX0qs0szRl3vrrR24kHue9NtMl3haedwSb9UmEI7EbvvbTTuK4-nqTpem_mYEJlpmpaQq4XXK9Ltg846nrmilxNgtFBeIJjKTPqRuwziTTYsEcr?width=6077&height=8477&cropmode=none) 10% round;
+  
     background-attachment: fixed;
       background-size: initial;
     font-family: "Helvetica", "Arial", sans-serif;
@@ -14,6 +13,7 @@ body{
 /*   background: pink; */
   width: max-content;
   margin: 0 auto;
+
 /*   margin-right: .4rem;*/
   margin-top: 2vmin;
 }
@@ -21,7 +21,7 @@ body{
   display: grid;
   justify-content: center;
   align-items: center;
-  grid-template-columns: repeat(3, 20vmin); 
+  grid-template-columns: repeat(3, 15vmin); 
 /*   max-width: 50vw; */
   margin: 0 auto;
   grid-gap: .25rem;
@@ -30,7 +30,15 @@ body{
 }
 
 .gallery img{
-  width: 20vmin;
-  height: 20vmin;
+  width: 15vmin;
+  height: 15vmin;
   object-fit: cover;
 }
+
+.gallery a{
+  width: 15vmin;
+  height: 15vmin;
+  object-fit: cover;
+}
+
+

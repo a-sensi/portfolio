@@ -2,8 +2,8 @@
     z-index: 2;
     position: fixed;
     width: 35px;
-    margin-top: 4vmin;
-    margin-left: 10vmin;
+    margin-top: 1.6vmin;
+    margin-left: 4vmin;
     display: grid;
     justify-content: center;
     padding: 0.2rem;

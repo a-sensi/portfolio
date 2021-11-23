@@ -4,8 +4,7 @@
     box-sizing: border-box; 
   }
   body {
-    border: 2vmin solid orangered;
-    border-image: url(https://bl6pap003files.storage.live.com/y4m0zNYgu8k5Hkk9U8ZNxH1hYokWIAMlulHwZojFMzXW2OkcXYhAw6OsjAeVp3tEpBAunxb6NhGiBevVez-EyX0qs0szRl3vrrR24kHue9NtMl3haedwSb9UmEI7EbvvbTTuK4-nqTpem_mYEJlpmpaQq4XXK9Ltg846nrmilxNgtFBeIJjKTPqRuwziTTYsEcr?width=6077&height=8477&cropmode=none) 10% round;
+    
     background: ivory;
     background-attachment: fixed;
       background-size: initial;
@@ -37,7 +36,7 @@
     padding: 0.2rem;
   }
   .gallery img {
-    border-image: url(/documentation/border.jpg); 
+    /* border-image: url(/documentation/border.jpg);  */
     height: 25vmin;
     margin: 0.24vmin;
   }

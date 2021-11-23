@@ -6,13 +6,13 @@ let mainMenu = `
 
 <nav class="ow-menu-block">
   <ul>
-    <li><a href="/portfolio/o_read">Read</a></li>
+    <li><a href="/docs/o_read">Read</a></li>
     <li class="short"><a href="#">Short Stories</a>
       <nav class="ow-sub-menu">
         <a href="#">To Die, To Sleep</a>
       </nav>
     </li>
-    <li><a href="/portfolio/o_about">About</a></li>
+    <li><a href="/docs/o_about">About</a></li>
   </ul>
 </nav>
 </div>
