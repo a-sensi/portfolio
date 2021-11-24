@@ -27,6 +27,7 @@
     
     .cover img{
       height: 45vmin;
+      margin-top: 3vmin;
     }
     
     .name h1, h4{

@@ -72,6 +72,11 @@ body.lb-disable-scrolling {
   line-height: 0;
 }
 
+.lb-loader img{
+  display: none;
+}
+}
+
 .lb-cancel {
   display: block;
   width: 32px;

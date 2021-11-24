@@ -12,8 +12,8 @@
     text-decoration: none;
     background: darkolivegreen;
     text-align: center;
-    max-width: 75vmin;
-    height: 3vmax;
+    max-width: 500px;
+    height: 3vmin;
     margin: 0 auto;
     
     
@@ -25,12 +25,15 @@
     justify-content: center;
     color: lightsteelblue;
     width: 24vmin;
-    font-size: 1.5vmax;
-    margin: 1vmin;
+    font-size: 1.5vmin;
+    /* margin: 1vmin; */
+    margin-top: .5vmin;
+    margin-bottom: .75vmin;
   }
   
   .ow-menu-block ul {
     display: flex;
+
     flex-direction: row;
     justify-content: space-around;
     height: 100%;
@@ -44,21 +47,21 @@
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-around;
-    height: 3vmin;
-    font-size: 2vmin;
+    height: max-content;
+    /* font-size: 1.5vmax; */
     overflow: hidden;
     width: max-content;
-    z-index:-4;
+    z-index: 50;
     margin:0 auto;
-    margin-top: .5vmin;
+    /* margin-top: .5vmin; */
     transition: all 0.4s;
   }
   .ow-sub-menu a {
     color: lightsteelblue;
     transition: all  4s;
     width: max-content;
-    margin-top: .3vmin;
-    font-size: 2vmin;
+    /* margin-top: .3vmin; */
+    font-size: 1.25vmin;
     
   }
   a:hover {
