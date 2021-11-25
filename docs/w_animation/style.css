@@ -17,10 +17,12 @@
   .container {
     height: max-content;
   /*   background: pink; */
-    width: 80%;
+    width: 75vw;
     margin: 0 auto;
-    margin-right: 1vmin;
+    margin-right: 13vmin;
     margin-top: 0.4vmin;
+    
+    
   }
   .gallery {
     padding: 4px;
@@ -31,13 +33,24 @@
     column-count: 4;
     column-gap: 10px;
     display: inline-block;
-    margin: 0 auto;
   }
   .gallery img {
     width: 100% !important;
     height: auto !important;
     margin-bottom: 0.35rem;
   }
+   video{
+    width: 500px;
+    height: auto !important;
+    margin: 0 auto;
+    margin-top: 2vmin;
+    margin-bottom: 3vmin;
+    /* padding: 10px; */
+    display: flex;
+    
+    /* border: solid .3vmin orangered; */
+  }
+  
   
   @media (max-width: 1000px) {
     .gallery {
