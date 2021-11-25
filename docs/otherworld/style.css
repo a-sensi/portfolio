@@ -6,7 +6,7 @@
   body{
     background: black;
     font-family:"Helvetica", "Arial", sans-serif;
-    height: 200vh;
+    height: max-content;
     
   }
   
