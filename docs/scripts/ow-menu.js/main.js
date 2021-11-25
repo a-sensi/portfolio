@@ -12,7 +12,7 @@ let mainMenu = `
         <a href="#">To Die, To Sleep</a>
       </nav>
     </li>
-    <li><a href="/docs/o_about">About</a></li>
+    <li><a href="/docs/about">About</a></li>
   </ul>
 </nav>
 </div>

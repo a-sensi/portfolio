@@ -109,7 +109,7 @@ body{
   }
   .sub-menu a {
     color: rgb(231, 77, 43);
-    background:rgb(162,173,197);
+    
     width:66px;
     /* text-align: center;
     font-style: italic; */
@@ -117,7 +117,7 @@ body{
 
   .menu .ow{
     color: rgb(164,71,19);
-    background: pink;
+    background: rgb(126,139,94);
   }
   /* .works:hover .sub-menu {
     height: 4rem;

@@ -10,9 +10,9 @@ let mainMenu = `
                 <li> <a class="home" href="/docs/index.html">Home</a></li>
                 
                   <nav class="sub-menu">
-                    <a class="illu" href="/docs/w_illu">Illustration</a>
-                    <a class="comic" href="/docs/w_comic">Comics</a>
-                    <a class="ani" href="/docs/w_animation">Animation</a>
+                    <a class="illu" href="/docs/illustration">Illustration</a>
+                    <a class="comic" href="/docs/comics">Comics</a>
+                    <a class="ani" href="/docs/animation">Animation</a>
                   </nav>
                 </li>
                 <li><a class="ow" href="/docs/otherworld">OtherWorld</a></li>
