@@ -67,6 +67,24 @@
   a:hover {
     font-style: italic;
   }
+
+ @media (max-width: 500px) {
+   
+    .ow-menu-block{
+      height: 6vmin;
+    }
+      .ow-menu-block a{
+        font-size: 4vmin;
+        margin-bottom: 2px;
+      }
+      .ow-sub-menu a{
+        font-size: 3vmin;
+       
+      }
+      .ow img{
+        height:15vmin;
+      }
+    }
   /* .short:hover .ow-sub-menu {
     height: 2vmin;
     z-index: -4;

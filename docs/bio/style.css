@@ -85,3 +85,21 @@ margin: 0 auto;
   .show p{
     font-style: italic;
   }
+
+
+  @media (max-width: 500px) {
+    .self img{
+      height: 50vmin;
+    }
+
+    h1{
+      font-size: 5vmin;
+    }
+    h4 a{
+      font-size: 4vmin;
+    }
+    .state p{
+      
+      font-size: 4vmin;
+    }
+  }

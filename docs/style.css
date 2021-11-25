@@ -36,7 +36,6 @@
     padding: 0.2rem;
   }
   .gallery img {
-    border-image: url(/documentation/border.jpg); 
     width: 30vmin;
     margin: 0.24vmin;
   }

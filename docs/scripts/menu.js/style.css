@@ -43,7 +43,7 @@ body{
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
-    height: 174px;
+    
     overflow: hidden;
     transition: all 0.7s;
   }
@@ -60,6 +60,7 @@ body{
     font-size: 0.75rem;
     padding: 0.4vmin;
     transition: all 0.7s;
+    
   }
   
   .menu ul {
@@ -72,6 +73,7 @@ body{
   .home:hover{
     font-style:italic;
 }
+
   .ow:hover {
     font-style: italic;
   }
@@ -86,6 +88,7 @@ body{
   }
   .sub-menu {
     display: flex;
+    
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
@@ -102,11 +105,19 @@ body{
   }
   .illu:hover{
     font-style: italic;
+    
   }
   .sub-menu a {
     color: rgb(231, 77, 43);
+    background:rgb(162,173,197);
+    width:66px;
     /* text-align: center;
     font-style: italic; */
+  }
+
+  .menu .ow{
+    color: rgb(164,71,19);
+    background: pink;
   }
   /* .works:hover .sub-menu {
     height: 4rem;

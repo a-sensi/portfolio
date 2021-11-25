@@ -17,20 +17,29 @@
   .container {
     height: max-content;
   /*   background: pink; */
-    width: 50vw;
+    width: 75vw;
     margin: 0 auto;
     /* margin-right: 13vmin; */
     margin-top: 0.4vmin;
     
     
   }
+@media (min-width: 1000px) {
+  .container {
+    width: 80vw;
+    margin-left: 25vmin;
+    
+  }
+  
+}
+
   .gallery {
     padding: 4px;
-    -webkit-column-count: 4;
+    -webkit-column-count: 3;
     -webkit-column-gap: 0px;
-    -moz-column-count: 4;
+    -moz-column-count: 3;
     -moz-column-gap: 0px;
-    column-count: 4;
+    column-count: 3;
     column-gap: 10px;
     display: inline-block;
   }
