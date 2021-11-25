@@ -89,16 +89,26 @@ body{
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
-    height: 0;
+    height: 4rem;
     overflow: hidden;
     transition: all 0.5s;
   }
-  .sub-menu a {
-    color: rgb(231, 77, 43);
-    text-align: center;
+  .comic:hover{
     font-style: italic;
   }
-  .works:hover .sub-menu {
-    height: 4rem;
+  .ani:hover{
+    font-style: italic;
+  
   }
+  .illu:hover{
+    font-style: italic;
+  }
+  .sub-menu a {
+    color: rgb(231, 77, 43);
+    /* text-align: center;
+    font-style: italic; */
+  }
+  /* .works:hover .sub-menu {
+    height: 4rem;
+  } */
   

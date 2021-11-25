@@ -8,11 +8,11 @@ let mainMenu = `
             <nav class="menu">
              <ul>
                 <li> <a class="home" href="/docs/index.html">Home</a></li>
-                <li class="works"><a href="#">Works</a>
+                
                   <nav class="sub-menu">
-                    <a href="/docs/w_illu">Illustration</a>
-                    <a href="/docs/w_comic">Comics</a>
-                    <a href="/docs/w_animation">Animation</a>
+                    <a class="illu" href="/docs/w_illu">Illustration</a>
+                    <a class="comic" href="/docs/w_comic">Comics</a>
+                    <a class="ani" href="/docs/w_animation">Animation</a>
                   </nav>
                 </li>
                 <li><a class="ow" href="/docs/otherworld">OtherWorld</a></li>
@@ -37,6 +37,6 @@ $('.icon').click(function() {
   
 })
 
-
+// <li class="works"><a href="#">Works</a>
 
 

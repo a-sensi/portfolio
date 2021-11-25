@@ -17,9 +17,9 @@
   .container {
     height: max-content;
   /*   background: pink; */
-    width: 75vw;
+    width: 50vw;
     margin: 0 auto;
-    margin-right: 13vmin;
+    /* margin-right: 13vmin; */
     margin-top: 0.4vmin;
     
     
@@ -40,13 +40,15 @@
     margin-bottom: 0.35rem;
   }
    video{
-    width: 500px;
+    width: 50vmin;
     height: auto !important;
     margin: 0 auto;
-      margin-top: .5vmin;
-    margin-bottom: 3vmin;
+     
     /* padding: 10px; */
     display: flex;
+  
+    /* margin-left: 20vw; */
+    margin-top: 0.4vmin;
     
     /* border: solid .3vmin orangered; */
   }
