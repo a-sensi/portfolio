@@ -32,15 +32,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: .5vmin;
-    max-width: 100vmin;
+    max-width: 107vmin;
     margin: 0 auto;
     padding: 0.5rem;
-    margin-top: 5vmin;
+    /* margin-top: 5vmin; */
 }
 
 .page-child img{
     background: lightsteelblue;
-    height: 70vmin;
+    height: 75vmin;
     
 }
   

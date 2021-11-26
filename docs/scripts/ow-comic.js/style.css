@@ -10,3 +10,7 @@
     
   }
   
+  .ow-comic{
+      position: relative;
+      z-index: 60;
+  }

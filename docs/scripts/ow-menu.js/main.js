@@ -6,7 +6,7 @@ let mainMenu = `
 
 <nav class="ow-menu-block">
   <ul>
-    <li><a href="/docs/otherworld">Read</a></li>
+    <li><a href="/docs/otherworld/cover-1">Read</a></li>
     <li class="short"><a href="#">Short Stories</a>
       <nav class="ow-sub-menu">
         <a href="#">To Die, To Sleep</a>

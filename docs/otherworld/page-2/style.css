@@ -32,15 +32,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: .5vmin;
-    max-width: 100vmin;
+    max-width: 107vmin;
     margin: 0 auto;
     padding: 0.5rem;
-    margin-top: 5vmin;
+    /* margin-top: 2vmin; */
 }
 
 .page-child img{
     background: lightsteelblue;
-    height: 70vmin;
+    height: 75vmin;
     
 }
   
@@ -50,4 +50,19 @@
     height: 5vmin;
     width: 50vmin;
     margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+  .page-child {
+    display: grid;
+    grid-column: 1/-1;
+    margin: 0 auto;
+    
+    
+  }
+  .page-child img{
+    width: 75vmin;
+    height: 105vmin;
+    
+  }
 }

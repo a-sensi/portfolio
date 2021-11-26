@@ -10,3 +10,47 @@
     
   }
   
+  /*  */
+
+  .cover{
+    display: grid;
+    justify-content: center;
+    padding: 0.5rem;
+    
+}
+  .cover img{
+      background: lightsteelblue;
+      width: 53.57vmin;
+      height: 75vmin;
+      
+  }
+  @media (max-width: 500px) {
+    .cover img{
+        width: 75vmin;
+        height: 105vmin;
+    }
+  }
+
+  .pages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .5vmin;
+    max-width: 107vmin;
+    margin: 0 auto;
+    padding: 0.5rem;
+    margin-top: 5vmin;
+}
+
+.page-child{
+    background: lightsteelblue;
+    height: 70vmin;
+    
+}
+  
+
+.button-row{
+    background: pink;
+    height: 5vmin;
+    width: 50vmin;
+    margin: 0 auto;
+}

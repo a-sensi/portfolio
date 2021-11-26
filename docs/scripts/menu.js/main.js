@@ -15,7 +15,7 @@ let mainMenu = `
                     <a class="ani" href="/docs/animation">Animation</a>
                   </nav>
                 </li>
-                <li><a class="ow" href="/docs/otherworld">OtherWorld</a></li>
+                <li><a class="ow" href="/docs/otherworld/cover-1">OtherWorld</a></li>
                 <li><a class="bio" href="/docs/bio/">Bio</a></li>
                 <li><a class="archive" href="/docs/archive">Archive</a></li>
               </ul>
