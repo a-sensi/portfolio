@@ -51,7 +51,7 @@ body{
   margin: 0 auto;
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
 .page-child {
   display: grid;
   grid-column: 1/-1;
@@ -64,4 +64,4 @@ body{
   height: 105vmin;
   
 }
-}
+} */
