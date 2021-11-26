@@ -42,18 +42,13 @@ body{
   height: 75vmin;
   
 }
- .page-child{
-   background: lightsteelblue;
-   height: 75vmin;
- }
+
 
 .button-row{
   background: pink;
-  height: 50px;
-  width: max-content;
+  height: 5vmin;
+  width: 50vmin;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 @media (max-width: 500px) {
@@ -69,10 +64,4 @@ body{
   height: 105vmin;
   
 }
-}
-
-
-.button-images img{
-  height: 50px;
-  display: flex;
 }
