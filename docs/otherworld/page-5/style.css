@@ -46,17 +46,16 @@ body{
 
 
 @media (max-width: 500px) {
-.page-child {
-  display: grid;
-  grid-column: 1/-1;
-  margin: 0 auto;
-  display: flex;
-  
-}
-.page-child img{
-  width: 75vmin;
-  height: 105vmin;
-  
+  .page-child {
+    display: grid;
+    grid-column: 1/-1;
+    margin: 0 auto;
+    
+    
+  }
+  .page-child img{
+    width: 100vmin;
+    
 }
 body{
   height: 110vh;
@@ -64,7 +63,7 @@ body{
 .button-move{
   position:absolute;
   margin-left: 16vh;
-  margin-top:  15vh;
+  margin-top:  1vh;
   
 }
 }

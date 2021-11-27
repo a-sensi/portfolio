@@ -50,21 +50,21 @@
     display: grid;
     grid-column: 1/-1;
     margin: 0 auto;
-    display: flex;
+    
     
   }
   .page-child img{
-    width: 75vmin;
-    height: 105vmin;
+    width: 100vmin;
     
-  }
+}
+  
   body{
-    height: 110vh;
+    height: 130vh;
   }
   .button-move{
     position:absolute;
     margin-left: 16vh;
-    margin-top:  15vh;
+    margin-top:  1vh;
     
   }
   }

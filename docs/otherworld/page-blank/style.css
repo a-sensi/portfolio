@@ -42,48 +42,44 @@ body{
   height: 75vmin;
   
 }
- .page-child{
-   background: lightsteelblue;
-   height: 75vmin;
- }
-
 
 
 @media (max-width: 500px) {
-.page-child {
-  display: grid;
-  grid-column: 1/-1;
-  margin: 0 auto;
-  display: flex;
+  .page-child {
+    display: grid;
+    grid-column: 1/-1;
+    margin: 0 auto;
+    display: flex;
+    
+  }
+  .page-child img{
+    width: 75vmin;
+    height: 105vmin;
+    
+  }
+  body{
+    height: 130vh;
+  }
+  .button-move{
+    position:absolute;
+    margin-left: 16vh;
+    margin-top:  1vh;
+    
+  }
+  }
   
-}
-.page-child img{
-  width: 75vmin;
-  height: 105vmin;
   
-}
-body{
-  height: 110vh;
-}
-.button-move{
-  position:absolute;
-  margin-left: 16vh;
-  margin-top:  15vh;
   
-}
-}
-
-
-.button-row{
-  /* background: pink; */
-  height: 25px;
-  width: max-content;
-  margin: 0 auto;
-  display: flex;
-  z-index: 5;
+  .button-row{
+    /* background: pink; */
+    height: 25px;
+    width: max-content;
+    margin: 0 auto;
+    display: flex;
+    z-index: 5;
+    
+  }
   
-}
-
-.button-images img{
-  height: 25px;
-}
+  .button-images img{
+    height: 25px;
+  }
