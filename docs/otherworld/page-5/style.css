@@ -35,6 +35,7 @@ body{
   max-width: 107vmin;
   margin: 0 auto;
   padding: 0.5rem;
+  /* margin-top: 5vmin; */
 }
 
 .page-child img{
@@ -44,19 +45,12 @@ body{
 }
 
 
-.button-row{
-  background: pink;
-  height: 5vmin;
-  width: 50vmin;
-  margin: 0 auto;
-}
-
-/* @media (max-width: 500px) {
+@media (max-width: 500px) {
 .page-child {
   display: grid;
   grid-column: 1/-1;
   margin: 0 auto;
-  
+  display: flex;
   
 }
 .page-child img{
@@ -64,4 +58,28 @@ body{
   height: 105vmin;
   
 }
-} */
+body{
+  height: 110vh;
+}
+.button-move{
+  position:absolute;
+  margin-left: 16vh;
+  margin-top:  15vh;
+  
+}
+}
+
+
+.button-row{
+  /* background: pink; */
+  height: 25px;
+  width: max-content;
+  margin: 0 auto;
+  display: flex;
+  z-index: 5;
+  
+}
+
+.button-images img{
+  height: 25px;
+}

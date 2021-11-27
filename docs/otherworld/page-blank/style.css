@@ -47,21 +47,14 @@ body{
    height: 75vmin;
  }
 
-.button-row{
-  background: pink;
-  height: 50px;
-  width: max-content;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
+
 
 @media (max-width: 500px) {
 .page-child {
   display: grid;
   grid-column: 1/-1;
   margin: 0 auto;
-  
+  display: flex;
   
 }
 .page-child img{
@@ -69,10 +62,28 @@ body{
   height: 105vmin;
   
 }
+body{
+  height: 110vh;
+}
+.button-move{
+  position:absolute;
+  margin-left: 16vh;
+  margin-top:  15vh;
+  
+}
 }
 
 
-.button-images img{
-  height: 50px;
+.button-row{
+  /* background: pink; */
+  height: 25px;
+  width: max-content;
+  margin: 0 auto;
   display: flex;
+  z-index: 5;
+  
+}
+
+.button-images img{
+  height: 25px;
 }
