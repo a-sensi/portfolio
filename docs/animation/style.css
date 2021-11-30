@@ -13,7 +13,11 @@
     font-family: "Helvetica", "Arial", sans-serif;
     height: max-content;
   }
-
+.vid {
+  background: lightsteelblue;
+  width: max-content;
+  margin:0 auto;
+}
   .container {
     height: max-content;
   /*   background: pink; */

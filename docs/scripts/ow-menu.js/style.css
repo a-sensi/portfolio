@@ -23,7 +23,7 @@
     text-decoration: none;
     display: flex;
     justify-content: center;
-    color: lightsteelblue;
+    color: ivory;
     width: 24vmin;
     font-size: 1.5vmin;
     /* margin: 1vmin; */
@@ -57,11 +57,11 @@
     transition: all 0.4s;
   }
   .ow-sub-menu a {
-    color: lightsteelblue;
+    color: ivory;
     transition: all  4s;
     width: max-content;
     /* margin-top: .3vmin; */
-    font-size: 1.25vmin;
+    font-size: 1.5vmin;
   
   }
   a:hover {

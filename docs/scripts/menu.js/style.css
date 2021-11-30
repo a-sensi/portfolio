@@ -1,5 +1,6 @@
 body{
     font-family: "Helvetica", "Arial", sans-serif;
+    
 }
 
 .icon {
@@ -9,6 +10,7 @@ body{
     width: 55px;
     margin-top: 4vmin;
     margin-left: 4vmin;
+    
     display: grid;
     justify-content: center;
     padding: 0.2rem;
@@ -17,33 +19,38 @@ body{
   .icon img {
     width: 66px;
     transition: all  2s ease-in-out;
+     text-decoration: none;
   }
-  .icon:hover img{
+  .icon:hover img, a, p{
     transform: rotate(360deg); 
-  
+   text-decoration: none;
+   
   }
   .icon p {
+    color:rgb(231, 77, 43);
   
     font-style: italic;
-    font-size: 0.4rem;
+    font-size: 2vmin;
     text-align: center;
+    
   }
+.text:hover{
+  color: lightsteelblue;
+}
 
-  
   /* DROPDOWN */
   
   .menu {
     display:none;
     position: fixed;
-    background: lightsteelblue;
+    /* background: lightsteelblue; */
     text-align: right;
-    width: 66px;
-    height: 175px;
-    
+    width: 100px;
+    height: max-content;
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
-    
+    margin-top: 2vmin;
     overflow: hidden;
     transition: all 0.7s;
   }
@@ -57,10 +64,10 @@ body{
   .menu a {
     text-decoration: none;
     color: rgb(231, 77, 43);
-    font-size: 0.75rem;
-    padding: 0.4vmin;
+    font-size: 2vmin;
+    padding: 1.5vmin;
     transition: all 0.7s;
-    
+   
   }
   
   .menu ul {
@@ -86,16 +93,16 @@ body{
   .archive:hover {
     font-style: italic;
   }
-  .sub-menu {
+  /* .sub-menu {
     display: flex;
-    
+    text-align: right;
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
     height: 4rem;
     overflow: hidden;
     transition: all 0.5s;
-  }
+  } */
   .comic:hover{
     font-style: italic;
   }
@@ -107,19 +114,32 @@ body{
     font-style: italic;
     
   }
-  .sub-menu a {
+  /* .sub-menu a {
     color: rgb(231, 77, 43);
     
     width:66px;
     /* text-align: center;
     font-style: italic; */
-  }
+  
 
   .menu .ow{
     color: rgb(164,71,19);
-    background: rgb(126,139,94);
+  
   }
   /* .works:hover .sub-menu {
     height: 4rem;
   } */
   
+  @media (max-width: 500px) {
+    .icon p{
+      font-size: 3vmin;
+    }
+    .menu{
+      height: 250px;
+      width: 70px;
+      
+    }
+    .menu a{
+      font-size: 3vmin;
+    }
+  }

@@ -1,85 +1,104 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body{
-    background: black;
-    font-family:"Helvetica", "Arial", sans-serif;
-    height: max-content;
-    
-  }
-  
-.cover{
-    display: grid;
-    justify-content: center;
-    padding: 0.5rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+body{
+  background: black;
+  font-family:"Helvetica", "Arial", sans-serif;
+  height: max-content;
+  
+}
+
+.cover{
+  display: grid;
+  justify-content: center;
+  padding: 0.5rem;
+}
+.cover img{
+    background: lightsteelblue;
+    width: 50vmin;
+    height: 70vmin;
+    
+}
+@media (max-width: 500px) {
   .cover img{
-      background: lightsteelblue;
-      width: 50vmin;
-      height: 70vmin;
-      
+      width: 75vmin;
+      height: 105vmin;
   }
-  @media (max-width: 500px) {
-    .cover img{
-        width: 75vmin;
-        height: 105vmin;
-    }
+}
+
+.number{
+  color: ivory;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.5vmin;  
+  padding: 1.5vmin;
   }
 
-  .pages {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: .5vmin;
-    max-width: 107vmin;
-    margin: 0 auto;
-    padding: 0.5rem;
-    /* margin-top: 5vmin; */
+.pages {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: .5vmin;
+  max-width: 107vmin;
+  margin: 0 auto;
+  padding: 0.5rem;
+  /* margin-top: 2vmin; */
 }
 
 .page-child img{
-    background: lightsteelblue;
-    height: 75vmin;
-    
-}
+  background: lightsteelblue;
+  height: 75vmin;
   
+}
+
+
+
+.button-row{
+  /* background: pink; */
+  height: 25px;
+  width: max-content;
+  margin: 0 auto;
+  display: flex;
+  z-index: 5;
+  
+}
+
+.button-images img{
+  height: 25px;
+}
+
+.extreme{
+  padding: 2vmin;
+}
 
 @media (max-width: 500px) {
   .page-child {
     display: grid;
     grid-column: 1/-1;
     margin: 0 auto;
+
     
     
   }
   .page-child img{
-    width: 100vmin;
-    
+    width: 100vw;
+   
 }
   
   body{
-    height: 130vh;
+    height: 50vh;
   }
   .button-move{
     position:absolute;
-    margin-left: 16vh;
+    margin-left: 10vh;
     margin-top:  1vh;
     
   }
+  .extreme{
+    padding: 25px;
   }
-  
-  
-  .button-row{
-    /* background: pink; */
-    height: 25px;
-    width: max-content;
-    margin: 0 auto;
-    display: flex;
-    z-index: 5;
-    
+  .number{
+    font-size: 3vmin;
   }
-  
-  .button-images img{
-    height: 25px;
   }

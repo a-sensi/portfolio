@@ -28,6 +28,13 @@ body{
   }
 }
 
+.number{
+  color: ivory;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.5vmin;  padding: 1.5vmin;
+  }
+
 .pages {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -35,7 +42,7 @@ body{
   max-width: 107vmin;
   margin: 0 auto;
   padding: 0.5rem;
-  /* margin-top: 5vmin; */
+  /* margin-top: 2vmin; */
 }
 
 .page-child img{
@@ -44,29 +51,6 @@ body{
   
 }
 
-
-@media (max-width: 500px) {
-  .page-child {
-    display: grid;
-    grid-column: 1/-1;
-    margin: 0 auto;
-    
-    
-  }
-  .page-child img{
-    width: 100vmin;
-    
-}
-body{
-  height: 110vh;
-}
-.button-move{
-  position:absolute;
-  margin-left: 16vh;
-  margin-top:  1vh;
-  
-}
-}
 
 
 .button-row{
@@ -82,3 +66,39 @@ body{
 .button-images img{
   height: 25px;
 }
+
+.extreme{
+  padding: 2vmin;
+}
+
+@media (max-width: 500px) {
+  .page-child {
+    display: grid;
+    grid-column: 1/-1;
+    margin: 0 auto;
+
+    
+    
+  }
+  .page-child img{
+    width: 100vw;
+   
+}
+  
+  body{
+    height: 50vh;
+  }
+
+  .button-move{
+    position:absolute;
+    margin-left: 10vh;
+    margin-top:  1vh;
+    
+  }
+  .extreme{
+    padding: 25px;
+  }
+  .number{
+    font-size: 3vmin;
+  }
+  }
