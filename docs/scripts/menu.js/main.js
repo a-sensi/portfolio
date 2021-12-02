@@ -8,7 +8,7 @@ let mainMenu = `
             <p class="top"></p>
             <nav class="menu">
              <ul>
-                <a class="home" href="/index.html/">Home</a>
+                <a class="home" href="/portfolio/index.html">Home</a>
                     <a class="illu" href="/portfolio/illustration/">Illustration</a>
                     <a class="comic" href="/portfolio/comics/">Comics</a>
                     <a class="ani" href="/portfolio/animation">Animation</a>
