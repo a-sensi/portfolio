@@ -66,7 +66,7 @@ body{
     color: rgb(231, 77, 43);
     font-size: 2vmin;
     padding: 1.5vmin;
-    transition: all 0.7s;
+    transition: all ;
    
   }
   
@@ -79,19 +79,24 @@ body{
   }
   .home:hover{
     font-style:italic;
+    background: rgba(185,210,100, .3);
 }
 
   .ow:hover {
     font-style: italic;
+    background: rgba(157,154,244, .3);
   }
   .works:hover {
     font-style: italic;
+    background: rgba(185,210,100, .3);
   }
   .bio:hover {
     font-style: italic;
+    background: rgba(185,210,100, .3);
   }
   .archive:hover {
     font-style: italic;
+    background: rgba(185,210,100, .3);
   }
   /* .sub-menu {
     display: flex;
@@ -105,13 +110,15 @@ body{
   } */
   .comic:hover{
     font-style: italic;
+    background: rgba(218, 232, 96, .3);
   }
   .ani:hover{
     font-style: italic;
-  
+    background: rgba(218, 232, 96, .3);
   }
   .illu:hover{
     font-style: italic;
+    background: rgba(218, 232, 96, .3);
     
   }
   /* .sub-menu a {
