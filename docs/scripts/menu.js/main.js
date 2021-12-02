@@ -8,13 +8,13 @@ let mainMenu = `
             <p class="top"></p>
             <nav class="menu">
              <ul>
-                <a class="home" href="/docs/index.html">Home</a>
-                    <a class="illu" href="/docs/illustration">Illustration</a>
-                    <a class="comic" href="/docs/comics">Comics</a>
-                    <a class="ani" href="/docs/animation">Animation</a>
-                    <a class="ow" href="/docs/otherworld/cover-1">OtherWorld</a>
-                    <a class="bio" href="/docs/bio/">Bio</a>
-                    <a class="archive" href="/docs/archive">Archive</a>
+                <a class="home" href="/index.html">Home</a>
+                    <a class="illu" href="/illustration">Illustration</a>
+                    <a class="comic" href="/comics">Comics</a>
+                    <a class="ani" href="/animation">Animation</a>
+                    <a class="ow" href="/otherworld/cover-1">OtherWorld</a>
+                    <a class="bio" href="/bio/">Bio</a>
+                    <a class="archive" href="/archive">Archive</a>
                  
                 </li>
               
