@@ -10,6 +10,7 @@
     position:fixed;
        top:2vmin;
        right: 2vmin;
+       z-index: 40;
     }
     .img-corner {
       width: 10vmin;
