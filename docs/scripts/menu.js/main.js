@@ -9,12 +9,12 @@ let mainMenu = `
             <nav class="menu">
              <ul>
                 <a class="home" href="/index.html/">Home</a>
-                    <a class="illu" href="//illustration/">Illustration</a>
-                    <a class="comic" href="//comics/">Comics</a>
-                    <a class="ani" href="//animation">Animation</a>
-                    <a class="ow" href="//otherworld/cover-1">OtherWorld</a>
-                    <a class="bio" href="//bio/">Bio</a>
-                    <a class="archive" href="//archive">Archive</a>
+                    <a class="illu" href="/portfolio/illustration/">Illustration</a>
+                    <a class="comic" href="/portfolio/comics/">Comics</a>
+                    <a class="ani" href="/portfolio/animation">Animation</a>
+                    <a class="ow" href="/portfolio/otherworld/cover-1">OtherWorld</a>
+                    <a class="bio" href="/portfolio/bio/">Bio</a>
+                    <a class="archive" href="/portfolio/archive">Archive</a>
                  
                 </li>
               
