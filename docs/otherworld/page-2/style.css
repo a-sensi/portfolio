@@ -32,8 +32,10 @@ body{
   color: ivory;
   text-align: center;
   font-style: italic;
-  font-size: 1.5vmin;  padding: 1.5vmin;
+  font-size: 1.5vmin;  
+  padding-bottom: 1.5vmin;
   }
+
 
 .pages {
   display: grid;
@@ -41,7 +43,7 @@ body{
   grid-gap: .5vmin;
   max-width: 107vmin;
   margin: 0 auto;
-  padding: 0.5rem;
+  padding-bottom: 0.5rem;
   /* margin-top: 2vmin; */
 }
 

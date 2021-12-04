@@ -16,6 +16,7 @@ body{
     padding: 0.2rem;
     
   }
+  
   .icon img {
     width: 66px;
     transition: all  2s ease-in-out;
@@ -45,7 +46,7 @@ body{
     position: fixed;
     /* background: lightsteelblue; */
     text-align: right;
-    width: 100px;
+    width: 120px;
     height: max-content;
     flex-direction: column;
     align-items: flex-end;
@@ -77,11 +78,29 @@ body{
     justify-content: space-around;
     height: 100%;
   }
-  .home:hover{
+
+  /* .home:hover{
     font-style:italic;
     background: rgba(185,210,100, .3);
-}
 
+} */
+
+.home div{
+  height: 25px;
+  position: fixed;
+  display: flex;
+
+}
+.home:hover #home-one{
+height: 0px;
+}
+#home-two{
+  z-index: 3;
+  height: 0px;
+}
+.home:hover #home-two{
+  height: 25px;
+}
   .ow:hover {
     font-style: italic;
     background: rgba(157,154,244, .3);

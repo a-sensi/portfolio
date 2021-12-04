@@ -32,7 +32,8 @@ body{
   color: ivory;
   text-align: center;
   font-style: italic;
-  font-size: 1.5vmin;  padding: 1.5vmin;
+  font-size: 1.5vmin;  
+  padding-bottom: 1.5vmin;
   }
 
 .pages {
