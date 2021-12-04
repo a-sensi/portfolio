@@ -67,9 +67,96 @@ body{
 .button-images img{
   height: 25px;
 }
+.button-images {
+  display: flex;
+    justify-content: center;
+}
+/* CHANGING BUTTONS */
+#db{
+  background: url('../images/backward-2.png');
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
+  
+}
+#db:hover{
+  background: url('../images/backward-2-two.png');
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
+}
+
+#b{
+  background: url('../images/backward-1.png');
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
+  
+}
+#b:hover{
+  background: url('../images/backward-1-two.png');
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
+}
+#h{
+  background: url('../images/home.png');
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
+  
+}
+#h:hover{
+  background: url('../images/home-two.png');
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
+}
+#f{
+  background: url('../images/forward-1.png');
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+#f:hover{
+  background: url('../images/forward-1-two.png');
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
+}
+
+#df{
+  background: url('../images/forward-2.png');
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
+  
+}
+#df:hover{
+  background: url('../images/forward-2-two.png');
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
+}
+
+/* CHANGING BUTTONSSS */
+
 
 .extreme{
-  padding: 2vmin;
+  padding-right: 2vmin;
+  padding-left: 2vmin;
 }
 
 @media (max-width: 500px) {
@@ -102,3 +189,7 @@ body{
     font-size: 3vmin;
   }
   }
+
+
+
+  
