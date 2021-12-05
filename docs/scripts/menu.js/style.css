@@ -87,6 +87,7 @@ body{
 
 .home div{
   height: 25px;
+  width: 25px;
   position: fixed;
   display: flex;
 
