@@ -85,21 +85,21 @@ body{
 
 } */
 
-.home div{
+.home-house div{
   height: 25px;
   width: 25px;
   position: fixed;
   display: flex;
 
 }
-.home:hover #home-one{
+.home-house:hover #home-one{
 height: 0px;
 }
 #home-two{
   z-index: 3;
   height: 0px;
 }
-.home:hover #home-two{
+.home-house:hover #home-two{
   height: 25px;
 }
   .ow:hover {
@@ -169,7 +169,7 @@ height: 0px;
     .menu a{
       font-size: 3vmin;
     }
-    .home div{
+    .home-house img{
       height: 25px;
       width: 25px;
     }
