@@ -90,13 +90,14 @@ body{
   width: 25px;
   position: fixed;
   display: flex;
-
+  z-index: 5;
 }
 .home-house:hover #home-one{
 height: 0px;
+
 }
 #home-two{
-  z-index: 3;
+  
   height: 0px;
 }
 .home-house:hover #home-two{

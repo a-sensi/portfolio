@@ -54,7 +54,7 @@
     z-index: 50;
     margin:0 auto;
     /* margin-top: .5vmin; */
-    transition: all 0.4s;
+    transition: all ;
   }
   .ow-sub-menu a {
     color: ivory;
@@ -66,6 +66,11 @@
   }
   a:hover {
     font-style: italic;
+    color: lightsteelblue;
+  }
+  .ow-sub-menu:hover {
+    background: lightsteelblue;
+    
   }
 
  @media (max-width: 500px) {
