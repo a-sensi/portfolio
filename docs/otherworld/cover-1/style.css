@@ -183,7 +183,8 @@ body{
     
   }
   .extreme{
-    padding: 25px;
+    padding-right: 25px;
+  padding-left: 25px;
   }
   .number{
     font-size: 3vmin;
