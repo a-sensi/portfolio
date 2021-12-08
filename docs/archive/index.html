@@ -17,47 +17,57 @@
 <body>
   <header></header>
   <div class="corner"></div>
-
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> All Work</button>
+    <button class="btn" onclick="filterSelection('2021')"> 2021</button>
+    <button class="btn" onclick="filterSelection('2020')"> 2020</button>
+    <button class="btn" onclick="filterSelection('traditional')"> Traditional Work</button>
+    <button class="btn" onclick="filterSelection('digital')"> Digital Work</button>
+  </div>
+  
   <div class="container">
-
+  
     <div class="gallery">
-      <div class="gallery">
-
-        <img src="images/1house copy.jpg">
-        <img src="images/2houses copy.jpg">
-
-        <img src="images/cow p copy.jpg">
-        <img src="images/deer copy.jpg">
-        <img src="images/diesleep_blankcover copy.jpg">
-        <img src="images/farmanimals copy.jpg">
-        <img src="images/harpy copy.jpg">
-        <img src="images/herd copy.jpg"> <img src="images/horse copy.jpg"> <img src="images/IMG_0436 copy.jpg">
-        <img src="images/IMG_0569 copy.jpg">
-        <img src="images/IMG_0641 copy.jpg">
-        </a>
-
-        <img src="images/IMG_1219 copy.jpg">
-        <img src="images/IMG_1220 copy.jpg">
-        <img src="images/IMG_1221 copy.jpg">
-        <img src="images/IMG_1223 copy.jpg">
-        <img src="images/IMG_1224 copy.jpg">
-        <img src="images/IMG_1225 copy.jpg">
-        <img src="images/IMG_1226 copy.jpg">
-        <img src="images/IMG_1227 copy.jpg">
-        <img src="images/IMG_1228 copy.jpg">
-        <img src="images/mamabear copy.jpg">
-        <img src="images/mockingbird copy.jpg"> <img src="images/mom_child copy.jpg">
-        <img src="images/parents copy.jpg">
-        <img src="images/seelie_court copy.jpg"> <img src="images/sunbeast copy.jpg">
-        <img src="images/sunbeast2 copy.jpg">
-        <img src="images/un copy.jpg"> <img src="images/unincorn p copy.jpg"> <img
-          src="images/Untitled_Artwork 2 copy.jpg"> <img
-            src="images/Untitled_Artwork 3 copy.jpg"> <img
-            src="images/Untitled_Artwork 4 copy.jpg"> <img
-            src="images/Untitled_Artwork 5 copy.jpg">
-
-
-      </div>
+  
+      <img class="filterDiv 2021 traditional" src="images/1house copy.jpg">
+      <img class="filterDiv 2021 traditional" src="images/2houses copy.jpg">
+  
+      <img class="filterDiv 2021 digital" src="images/cow p copy.jpg">
+      <img class="filterDiv 2021 traditional" src="images/deer copy.jpg">
+      <img class="filterDiv 2020 traditional" src="images/diesleep_blankcover copy.jpg">
+      <img class="filterDiv traditional" src="images/farmanimals copy.jpg">
+      <img class="filterDiv 2021 traditional" src="images/harpy copy.jpg">
+      <img class="filterDiv 2021 traditional" src="images/herd copy.jpg"> 
+      <img class="filterDiv 2021 traditional" src="images/horse copy.jpg"> 
+      <img class="filterDiv 2021" src="images/IMG_0436 copy.jpg">
+      <img class="filterDiv 2021" src="images/IMG_0569 copy.jpg">
+      <img class="filterDiv 2021" src="images/IMG_0641 copy.jpg">
+      </a>
+  
+      <img class="filterDiv 2021" src="images/IMG_1219 copy.jpg">
+      <img class="filterDiv 2021" src="images/IMG_1220 copy.jpg">
+      <img class="filterDiv 2021" src="images/IMG_1221 copy.jpg">
+      <img class="filterDiv 2021" src="images/IMG_1223 copy.jpg">
+      <img class="filterDiv 2021"src="images/IMG_1224 copy.jpg">
+      <img class="filterDiv 2021" src="images/IMG_1225 copy.jpg">
+      <img class="filterDiv 2021" src="images/IMG_1226 copy.jpg">
+      <img class="filterDiv 2021" src="images/IMG_1227 copy.jpg">
+      <img class="filterDiv 2021" src="images/IMG_1228 copy.jpg">
+      <img class="filterDiv 2021 traditional" src="images/mamabear copy.jpg">
+      <img class="filterDiv 2021 traditional" src="images/mockingbird copy.jpg"> <img class="filterDiv 2021 traditional" src="images/mom_child copy.jpg">
+      <img class="filterDiv 2021 traditional" src="images/parents copy.jpg">
+      <img class="filterDiv 2021 traditional"src="images/seelie_court copy.jpg"> 
+    <img class="filterDiv 2021 traditional"src="images/sunbeast copy.jpg">
+      <img class="filterDiv 2021 traditional"src="images/sunbeast2 copy.jpg">
+      <img class="filterDiv 2021"src="images/un copy.jpg"> 
+    <img class="filterDiv 2021"src="images/unincorn p copy.jpg"> 
+    <img class="filterDiv 2021"src="images/Untitled_Artwork 2 copy.jpg"> 
+    <img class="filterDiv 2021"src="images/Untitled_Artwork 3 copy.jpg"> 
+    <img class="filterDiv 2021"src="images/Untitled_Artwork 4 copy.jpg"> 
+    <img class="filterDiv 2021"src="images/Untitled_Artwork 5 copy.jpg">
+  
+    </div>
+  
 
     </div>
     <div class="footer"></div>
@@ -73,6 +83,55 @@
         'imageFadedDuration': 20,
         'fitImagesInViewport': true,
       })
+
+
+      filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current control button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
     </script>
 </body>
 
