@@ -99,3 +99,15 @@ body{
   list-style-type: none;
   margin-top: 2vmin;
 }
+
+
+@media (max-width: 500px) {
+  #myBtnContainer{
+    display: flex;
+   flex-direction: column;
+    right: 1vmin;
+    width: 75px;
+    position: fixed;
+
+  }
+}

@@ -91,4 +91,13 @@
 
 
   
+  @media (max-width: 500px) {
+    .container{
+      display: flex;
+     flex-direction: column;
+      right: 1vmin;
+     
+      position: absolute;
   
+    }
+  }

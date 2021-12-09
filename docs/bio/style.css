@@ -94,6 +94,7 @@ margin: 0 auto;
 
     h1{
       font-size: 5vmin;
+
     }
     h4 a{
       font-size: 4vmin;
@@ -101,5 +102,7 @@ margin: 0 auto;
     .state p{
       
       font-size: 4vmin;
+      margin-left: 6vmin;
+    
     }
   }
