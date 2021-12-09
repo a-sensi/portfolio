@@ -85,23 +85,22 @@ body{
 
 } */
 
-.home-house div{
+
+.home-house{
+  background: url('image/home-image.png');
   height: 25px;
   width: 25px;
+  background-position: center;
+  background-size: cover;
   position: fixed;
-  display: flex;
-  z-index: 5;
 }
-.home-house:hover #home-one{
-height: 0px;
 
-}
-#home-two{
-  
-  height: 0px;
-}
-.home-house:hover #home-two{
+.home-house:hover{
+  background: url('image/home-image-2.png');
   height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
 }
   .ow:hover {
     font-style: italic;
