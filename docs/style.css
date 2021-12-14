@@ -15,16 +15,19 @@
   }
   
   /* MIDDLE */
-
+.title{
+  display: grid;
+    justify-content: center;
+}
 .title img{
     margin: 0 auto;
-    margin-top: .5vmin;
+    margin-top: 13vmin;
     margin-bottom: .5vmin;
-    width: 30vmin;
+    width: 55vmin;
     padding: 5px;
-    display: flex;
-   
-  
+    
+
+
   }
   
   h1:hover {
@@ -41,3 +44,12 @@
     margin: 0.24vmin;
   }
   
+.vase{
+  display: grid;
+    justify-content: center;
+    padding: 0.2rem;
+}
+  .vase img{
+    width: 55vmin;
+    margin: 0.24vmin;
+  }
