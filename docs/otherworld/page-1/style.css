@@ -162,17 +162,16 @@ body{
     display: grid;
     grid-column: 1/-1;
     margin: 0 auto;
-    
+
   }
   .page-child img{
-    height: 100vw;
+    width: 100vw;
    
 }
   
   body{
-    height: 320vmin;
+    height: 50vh;
   }
-
   .button-move{
     position:absolute;
     margin-left: 10vh;
@@ -185,10 +184,8 @@ body{
   }
   .number{
     font-size: 3vmin;
+   
   }
-
-
-
   }
 
   
