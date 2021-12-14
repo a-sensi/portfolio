@@ -53,3 +53,17 @@
     width: 55vmin;
     margin: 0.24vmin;
   }
+
+
+
+
+@media (max-width: 500px) {
+  .title img{
+    margin-top: 45vmin;
+    width: 75vmin;
+    margin-left: 5vmin;
+  }
+  .vase img{
+    margin-left: 5vmin;
+  }
+}
