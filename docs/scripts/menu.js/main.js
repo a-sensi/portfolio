@@ -2,7 +2,7 @@ let mainMenu = `
 <a  href="/index.html"><div class="home-house"></div></a>
 <div class="icon">
         <div class="home-button">
-          <a href="#"> <img src="https://bl6pap003files.storage.live.com/y4mxxcG2x73ldYr8-xef-pkyGSUT5VUHKl0lP_XHGyrGpWVyt920SsqUQRrGBfADv4-2-6f3mYMRF36TbTT3KKEa9RybifXxNhK2P0CxsCTiIlxkjXlEkLhjxv6ProSYqucMHbyNStDJSKzI9snVWksOcNqPx-MJQo_DNhpxox08NE0H6jWrRjdM8gTo3grTY55?width=500&height=500&cropmode=none" alt="">
+          <a href="#"> <img src="https://bl6pap003files.storage.live.com/y4mAbga2uWWAJni_DRgtPa8rTQTEBMeRsgimCYHrb2sw8EcdXKxupXCmLqwwJcMGhc-DF30WOuFwdLYNCzgRrYqonpzStILLCpW9HcVYD4_IDo91u17AQNsjJ_RKyPMElLbn-FIhaMwPObffZ04xcdSRnoPr_mU-xR8__OudGVO4Og4lL3ONG7ejlc6t8EvFCMc?width=500&height=500&cropmode=none" alt="">
           <p class="text"> MENU</p> </a>
         
           <div>
