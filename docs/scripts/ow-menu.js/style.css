@@ -1,5 +1,8 @@
 
-
+.ow{
+  width: max-content;
+  margin: 0 auto;
+}
 .ow img{
     display: grid;
     justify-content: center;
