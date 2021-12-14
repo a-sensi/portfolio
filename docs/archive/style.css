@@ -70,24 +70,26 @@ body{
   border: none;
   outline: none;
   padding: 12px 16px;
-  background-color: darkolivegreen;
+  /* background-color: darkolivegreen; */
   cursor: pointer;
-  color: ivory;
+  color: darkolivegreen;
   margin: .25vmin;
- 
+ background: none;
 }
 
 /* Add a light grey background on mouse-over */
 .btn:hover {
-  background-color: lightsteelblue;
+  background-color: rgba(185,210,100, .3);
+  font-style: italic;
 }
 
 /* Add a dark background to the active button */
 .btn.active {
-  background-color: lightsteelblue;
+  background-color: rgba(218, 232, 96, .3);
   color: rgb(164,72,17);
   font-style: italic;
 }
+
 
 #myBtnContainer{
 
