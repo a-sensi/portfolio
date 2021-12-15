@@ -191,9 +191,11 @@ body{
 
     .icon{
       margin-left: 20px;
+      margin-top: 55px;
     }
     .home-house{
       margin-left: 35px;
       margin-top: 25px;
+      margin-bottom: 50px;
     }
   }
