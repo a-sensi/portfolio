@@ -1,4 +1,4 @@
-let mainMenu = `
+let mainMenu = `<link rel="shortcut icon" href="/docs/scripts/ow-menu.js/images/star_04.png">
 <div class=title>
 <div class="ow">
 <a href="/otherworld/"><img src="https://bl6pap003files.storage.live.com/y4m1ceYDHX1UTMurJlAWuhJHHNHT3sXy2IG6F4vnGWKkn_RnAztC8rBOKeBkAgId0DRjJLb2ZRGtceQqe6OJaPlz1nHkI6Zp-j95PHnFifKWshxSAALcYEVJVKgeEIr_y9GD-AFgCnXHhH66pPgtJa-BMelf7uOPeBF6HotHRj-LOsRfbj5H9zqNHrrja1k-f4e?width=909&height=228&cropmode=none" alt=""></a>
