@@ -8,8 +8,8 @@ body{
     position: fixed;
   
     width: 55px;
-    margin-top: 4vmin;
-    margin-left: 4vmin;
+    margin-top: 6vmin;
+    margin-left: 40px;
     
     display: grid;
     justify-content: center;
@@ -18,7 +18,7 @@ body{
   }
   
   .icon img {
-    width: 66px;
+    width: 55px;
     transition: all  2s ease-in-out;
      text-decoration: none;
   }
@@ -87,16 +87,18 @@ body{
 
 
 .home-house{
-  background: url('image/home-image.png');
+  background: url('image/home-image-2.png');
   height: 25px;
   width: 25px;
   background-position: center;
   background-size: cover;
   position: fixed;
+  margin-top: 2vmin;
+  margin-left: 55px;
 }
 
 .home-house:hover{
-  background: url('image/home-image-2.png');
+  background: url('image/home-image.png');
   height: 25px;
   width: 25px;
   background-position: center;
