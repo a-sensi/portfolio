@@ -188,4 +188,12 @@ body{
       width: 35px;
       margin-top: 5vmin;
     }
+
+    .icon{
+      margin-left: 20px;
+    }
+    .home-house{
+      margin-left: 35px;
+      margin-top: 25px;
+    }
   }
