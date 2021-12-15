@@ -6,7 +6,13 @@ let mainMenu = `<link rel="shortcut icon" href="/docs/scripts/ow-menu.js/images/
 
 <nav class="ow-menu-block">
   <ul>
-    <li><a href="/otherworld/cover-1">Read</a></li>
+    <li class="read"><a href="#">Read</a>
+    <nav class="ow-read-menu">
+    <a id="pro" href="/otherworld/page-1">Prologue</a>
+    <a id="one" href="/otherworld/page-6">Chapter 1</a>
+    <a id="two" href="/otherworld/page-11">Chapter 2</a>
+    <a id="three" href="/otherworld/page-26">Chapter 3</a>
+  </nav></li>
     <li class="short"><a href="#">Short Stories</a>
       <nav class="ow-sub-menu">
         <a id="sub" href="/otherworld/short-stories/cover-1">To Die, To Sleep</a>
@@ -21,6 +27,11 @@ $('.ow-menu').append(mainMenu);
 
 $('.short').click(function() {
     $('.ow-sub-menu').toggle();
+    
+    
+  })
+  $('.read').click(function() {
+    $('.ow-read-menu').toggle();
     
     
   })
