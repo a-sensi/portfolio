@@ -14,9 +14,14 @@
     height: max-content;
   }
 .vid {
-  background: lightsteelblue;
+  background: none;
   width: max-content;
   margin:0 auto;
+  
+}
+.vid video{
+ width: 65vmin;
+ padding-bottom: 2vmin;
 }
   .container {
     height: max-content;
