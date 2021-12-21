@@ -199,3 +199,31 @@ body{
       margin-bottom: 50px;
     }
   }
+
+
+  @media (min-width: 500px) {
+
+
+    .icon {
+      display: none;
+      
+    }
+    
+  
+
+  
+    /* DROPDOWN */
+    
+    .menu {
+      display:none;
+      
+    }
+    
+  
+  
+  .home-house{
+   display: none;
+  }
+ 
+
+  }
