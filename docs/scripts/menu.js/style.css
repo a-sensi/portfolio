@@ -9,18 +9,19 @@ body{
   
     width: 55px;
     margin-top: 6vmin;
-    margin-left: 40px;
+    margin-left: 45px;
     
     display: grid;
     justify-content: center;
     padding: 0.2rem;
-    
+   
   }
   
   .icon img {
     width: 55px;
     transition: all  2s ease-in-out;
      text-decoration: none;
+     
   }
   .icon:hover img, a, p{
     transform: rotate(360deg); 
@@ -33,6 +34,7 @@ body{
     font-style: italic;
     font-size: 2vmin;
     text-align: center;
+    background: blue;
     
   }
 .text:hover{
@@ -161,16 +163,17 @@ body{
   
   @media (max-width: 500px) {
     .icon p{
-      font-size: 3vmin;
+      font-size: calc(.5rem + 3vmin);
+      
     }
     .menu{
       height: 250px;
-      width: 70px;
-      
-      left: 2px;
+      background: white;
+      left: 30px;
+      width: unset;
     }
     .menu a{
-      font-size: 3vmin;
+      font-size: calc(.75rem + 3vmin);
       margin: 0;
      
     }
@@ -183,20 +186,27 @@ body{
       margin-left: 0;
       display:flex;
       text-align: center;
+      
     }
     .icon img {
       width: 35px;
       margin-top: 5vmin;
+      margin-left: 20px;
     }
 
     .icon{
       margin-left: 20px;
       margin-top: 55px;
+      
     }
     .home-house{
       margin-left: 35px;
       margin-top: 25px;
       margin-bottom: 50px;
+    }
+    .icon p{
+      background: none;
+      width: 75px;
     }
   }
 
