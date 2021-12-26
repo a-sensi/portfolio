@@ -14,11 +14,13 @@
     height: max-content;
   }
 .vid {
-  background: none;
+  
   width: max-content;
   margin:0 auto;
   
+  
 }
+
 .vid video{
  width: 65vmin;
  padding-bottom: 2vmin;
@@ -105,4 +107,21 @@
       position: absolute;
   
     }
+    
+  }
+  @media (max-width: 450px) {
+    
+  #vid01 {
+    background-color: lightsteelblue;
+    background: url('images/screen01.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 25px;
+  }
+  #vid02{
+    background-color: lightsteelblue;
+    background: url('images/screen02.png');
+    background-size: cover;
+    background-position: center;
+  }
   }
