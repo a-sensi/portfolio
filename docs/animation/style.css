@@ -123,5 +123,13 @@
     background: url('images/screen02.png');
     background-size: cover;
     background-position: center;
+
+  }
+  #vid03 {
+    background-color: lightsteelblue;
+    background: url('images/screen01.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 25px;
   }
   }
