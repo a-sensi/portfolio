@@ -20,7 +20,9 @@
   
   
 }
-
+.spin{
+  width:35vmin;
+}
 .vid video{
  width: 65vmin;
  padding-bottom: 2vmin;
