@@ -27,8 +27,8 @@
     padding: 0.2rem;
   }
   
-  .self img{
-    height: 25vmin;
+  .self video{
+    height: 45vmin;
   }
   
   .name h1, h4{
