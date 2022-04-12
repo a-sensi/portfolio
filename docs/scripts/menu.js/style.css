@@ -161,7 +161,7 @@ body{
     height: 4rem;
   } */
   
-  @media (max-width: 500px) {
+  @media (max-width: 700px) {
     .icon p{
       font-size: calc(.5rem + 3vmin);
       
@@ -211,7 +211,7 @@ body{
   }
 
 
-  @media (min-width: 500px) {
+  @media (min-width: 700px) {
 
 
     .icon {

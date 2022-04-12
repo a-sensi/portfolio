@@ -110,7 +110,7 @@ p {
   color: rgb(164, 71, 19);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 701px) {
   /* .icon p {
     
   } */
@@ -174,7 +174,7 @@ p {
 } 
 
 
-@media (max-width: 501px) {
+@media (max-width: 701px) {
 
   .desk-icon {
     display: none;
