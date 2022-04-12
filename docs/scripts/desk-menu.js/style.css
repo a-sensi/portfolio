@@ -201,8 +201,3 @@ p {
   
 }
 
-@media only screen and (orientation: landscape) {
-  .desk-icon {
-    display: none;
-  }
-}
