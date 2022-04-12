@@ -200,3 +200,9 @@ p {
   color:rgb(164,71,19);
   
 }
+
+@media only screen and (orientation: landscape) {
+  .desk-icon {
+    display: none;
+  }
+}
