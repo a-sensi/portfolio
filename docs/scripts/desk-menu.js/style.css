@@ -174,7 +174,7 @@ p {
 } 
 
 
-@media (max-width: 499px) {
+@media (max-width: 499.9px) {
 
   .desk-icon {
     display: none;
