@@ -118,9 +118,9 @@ p {
   .desk-menu {
     height: 220px;
     width: 98px;
-    left: 2px;
-    background: pink;
-    margin-top: 10vmin;
+    /* left: 2px;
+    /* background: pink; 
+    margin-top: 10vmin; */
   } 
    .desk-menu a {
     font-size: 3vmin;
