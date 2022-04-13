@@ -27,8 +27,8 @@
     padding: 0.2rem;
   }
   
-  .self video{
-    height: 45vmin;
+  .self img{
+    height: 25vmin;
   }
   
   .name h1, h4{
@@ -89,7 +89,7 @@ margin: 0 auto;
 
   @media (max-width: 500px) {
     .self img{
-      height: 50vmin;
+      height: 30vmin;
     }
 
     h1{
