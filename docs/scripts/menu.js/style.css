@@ -173,7 +173,8 @@ body{
       width: unset;
     }
     .menu a{
-      font-size: calc(.75rem + 1vmin);
+      font-size: .75rem;
+      /* font-size: calc(.75rem + 3vmin); */
       margin: 0;
      
     }
