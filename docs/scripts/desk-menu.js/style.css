@@ -76,39 +76,47 @@ p {
   width: 35px;
   background-position: center;
   background-size: cover;
+  
 }
 .desk-ow:hover {
   font-style: italic;
+  background: rgb(248, 242, 213);
 /*   background: rgba(157, 154, 244, 0.3); */
 }
 .desk-works:hover {
   font-style: italic;
+  background: rgb(248, 242, 213);
 /*   background: rgba(185, 210, 100, 0.3); */
 }
 .desk-bio:hover {
   font-style: italic;
+  background: rgb(248, 242, 213);
 /*   background: rgba(185, 210, 100, 0.3); */
 }
 .desk-archive:hover {
   font-style: italic;
+  background: rgb(248, 242, 213);
 /*   background: rgba(185, 210, 100, 0.3); */
 }
 .desk-comic:hover {
   font-style: italic;
+  background: rgb(248, 242, 213);
 /*   background: rgba(218, 232, 96, 0.3); */
 }
 .desk-ani:hover {
   font-style: italic;
+  background: rgb(248, 242, 213);
 /*   background: rgba(218, 232, 96, 0.3); */
 }
 .desk-illu:hover {
   font-style: italic;
+  background: rgb(248, 242, 213);
 /*   background: rgba(218, 232, 96, 0.3); */
 }
 
-.desk-menu .ow {
+/* .desk-menu .ow {
   color: rgb(164, 71, 19);
-}
+} */
 
 @media (max-width: 701px) {
   /* .icon p {
@@ -174,6 +182,26 @@ p {
   opacity: 1;
 } 
 
+#desk-star-ow{
+  display: flex;
+   align-items:center;
+  
+  padding-bottom: 10px;
+    
+}
+#desk-star-ow img{
+  
+  width: 25px;
+  opacity: 0;
+  transition-property: transform, opacity;
+  transition-duration: 3.2s , 0s;
+}
+
+#desk-star-ow:hover img{
+  transform: rotate(360deg);
+  text-decoration: none;
+  opacity: 1;
+}
 
 @media (max-width: 701px) {
 
@@ -197,7 +225,7 @@ p {
 
 }
 
-.desk-menu .desk-ow{
+/* .desk-menu .desk-ow{
   color:rgb(164,71,19);
   
-}
+} */
