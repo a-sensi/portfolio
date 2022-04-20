@@ -168,12 +168,12 @@ body{
     }
     .menu{
       height: 250px;
-      background: white;
+      background: none;
       left: 30px;
       width: unset;
     }
     .menu a{
-      font-size: .75rem;
+      font-size: 1rem;
       /* font-size: calc(.75rem + 3vmin); */
       margin: 0;
      

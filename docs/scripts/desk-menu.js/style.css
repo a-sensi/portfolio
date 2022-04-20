@@ -29,7 +29,7 @@ p {
 .desk-menu {
   position: fixed;
   text-align: right;
-  background: white;
+  background: none;
   
   height: max-content;
   flex-direction: column;
