@@ -30,8 +30,8 @@ body{
   }
   .icon p {
     color:rgb(231, 77, 43);
-  
-    font-style: italic;
+/*   
+    font-style: italic; */
     font-size: 2vmin;
     text-align: center;
     background: blue;
@@ -51,15 +51,17 @@ body{
     width: 120px;
     height: max-content;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: space-between;
     margin-top: 2vmin;
     overflow: hidden;
     transition: all 0.7s;
+    background: pink;
   }
   .top {
     transition: all 0.2s;
   }
+  
 
   /* .icon:hover .menu {
     height: 174px;
@@ -69,8 +71,9 @@ body{
     color: rgb(231, 77, 43);
     font-size: 2vmin;
     padding: 1.5vmin;
+    
     transition: all ;
-   
+  
   }
   
   .menu ul {
@@ -79,6 +82,8 @@ body{
     flex-direction: column;
     justify-content: space-around;
     height: 100%;
+  
+    
   }
 
   /* .home:hover{
@@ -169,7 +174,7 @@ body{
     .menu{
       height: 250px;
       background: none;
-      left: 30px;
+      left: 0px;
       width: unset;
     }
     .menu a{
