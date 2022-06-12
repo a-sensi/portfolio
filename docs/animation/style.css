@@ -19,6 +19,7 @@
   margin:0 auto;
   
   
+  
 }
 .spin{
   width:35vmin;
@@ -70,10 +71,11 @@
     display: flex;
   
     /* margin-left: 20vw; */
-    margin-top: 0.4vmin;
+    /* margin-top: 0.4vmin; */
     
     /* border: solid .3vmin orangered; */
   }
+  
   
   
   @media (max-width: 1000px) {
@@ -111,7 +113,7 @@
     }
     
   }
-  @media (max-width: 450px) {
+  /* @media (max-width: 450px) {
     
   #vid01 {
     background-color: lightsteelblue;
@@ -134,4 +136,20 @@
     background-position: center;
     margin-bottom: 25px;
   }
+  } */
+  .title-text{
+   
+    position: relative;
+  margin: 0 auto;    
+  
+text-align: center;
+max-width: 25ch;
+
   }
+  .title-text h4{
+    font-style: italic;
+    color: rgb(231,77,43);
+    font-family: "Helvetica", "Arial", sans-serif;
+  }
+
+  
