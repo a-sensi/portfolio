@@ -118,7 +118,7 @@ p {
   color: rgb(164, 71, 19);
 } */
 
-@media (max-width: 801px) {
+@media (max-width: 1375px) {
   /* .icon p {
     
   } */
@@ -223,7 +223,7 @@ p {
     display: none;
   }
 
-} 
+}  
 
 
 
