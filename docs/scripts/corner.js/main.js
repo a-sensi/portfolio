@@ -2,7 +2,7 @@ let mainLogo = `
 
 <div class="name-logo">
     <div>
-    <img class="img-corner" src="/docs/images/name-02.png" alt="">
+    <img class="img-corner" src="/images/name-02.png" alt="">
   </div>
 </div>
 
