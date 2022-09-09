@@ -80,37 +80,37 @@ p {
 }
 .desk-ow:hover {
   font-style: italic;
-  background: rgb(248, 242, 213);
+  /* background: rgb(248, 242, 213); */
 /*   background: rgba(157, 154, 244, 0.3); */
 }
 .desk-works:hover {
   font-style: italic;
-  background: rgb(248, 242, 213);
+  /* background: rgb(248, 242, 213); */
 /*   background: rgba(185, 210, 100, 0.3); */
 }
 .desk-bio:hover {
   font-style: italic;
-  background: rgb(248, 242, 213);
+  /* background: rgb(248, 242, 213); */
 /*   background: rgba(185, 210, 100, 0.3); */
 }
 .desk-archive:hover {
   font-style: italic;
-  background: rgb(248, 242, 213);
+  /* background: rgb(248, 242, 213); */
 /*   background: rgba(185, 210, 100, 0.3); */
 }
 .desk-comic:hover {
   font-style: italic;
-  background: rgb(248, 242, 213);
+  /* background: rgb(248, 242, 213); */
 /*   background: rgba(218, 232, 96, 0.3); */
 }
 .desk-ani:hover {
   font-style: italic;
-  background: rgb(248, 242, 213);
+  /* background: rgb(248, 242, 213); */
 /*   background: rgba(218, 232, 96, 0.3); */
 }
 .desk-illu:hover {
   font-style: italic;
-  background: rgb(248, 242, 213);
+  /* background: rgb(248, 242, 213); */
 /*   background: rgba(218, 232, 96, 0.3); */
 }
 
