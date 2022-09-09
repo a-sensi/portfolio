@@ -16,7 +16,7 @@ h1{
 
    position: absolute;
    
-    left: 15px;
+    left: 1.6rem;
     /* color:rgb(231, 77, 43); */
     font-style: italic;
     font-size: 1rem;
@@ -51,7 +51,7 @@ margin: 2vmin;
     margin-top: 0.4vmin;
   }
   .gallery {
-    
+   
     padding: 4px;
     -webkit-column-count: 1;
     -webkit-column-gap: 0px;
