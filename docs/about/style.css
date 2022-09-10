@@ -26,7 +26,7 @@
     }
     
     .cover img{
-      height: 45vmin;
+      height: 50vmin;
       margin-top: 3vmin;
     }
     
@@ -34,6 +34,7 @@
       color: rgb(231, 77, 43);
       text-align: center;
       margin: .5vmin;
+      
       font-style: italic;
       
     }
@@ -54,6 +55,7 @@
       margin: 2vmin;
       margin-bottom: 0;
       font-size: 2.5vmin;
+      margin-top: 0;
     }
     .star{
       margin: 0 auto;
@@ -83,8 +85,9 @@
     }
     .smaller{
       width: 30vmin;
-      height: 30vmin;
+      /* height: 30vmin; */
       margin-bottom: 3vmin;
+      margin-right: 5vmin;
       /* background-color: pink; */
       
     }
