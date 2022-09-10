@@ -192,6 +192,7 @@ body{
       margin-left: 0;
       display:flex;
       text-align: center;
+      background:white;
       
     }
     .icon img {
