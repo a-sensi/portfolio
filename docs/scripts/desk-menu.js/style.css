@@ -74,7 +74,7 @@ p {
 }
 
 .desk-home-house:hover {
-  background-image: url("/docs/images/home-image-2.png");
+  background-image: url("../../images/home-image-2.png");
   /* background: url("https://bl6pap003files.storage.live.com/y4mQ8T_TNzXam4Uqg0zMc_4Fw7gCCqWJM-wpLEIqvmYp0bloUH9M9odjkNsHZJht_hZ40eqk4FMI4vqfuFcC6CZLJ4MWicT05d5uFD2usXu48jTwjtJKZu7-cdQBProKOMrDNsJaGPK0GIs6TdvPmTh3eBb7d3rD3Zw0JXU6XGkspHSzb_U3azs1OZzBxiA5BVZ?width=500&height=500&cropmode=none"); */
   height: 35px;
   width: 35px;
