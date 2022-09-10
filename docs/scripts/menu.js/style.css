@@ -34,7 +34,7 @@ body{
     font-style: italic; */
     font-size: 2vmin;
     text-align: center;
-    /* background: blue; */
+    background: blue;
     
   }
 .text:hover{
@@ -56,7 +56,7 @@ body{
     margin-top: 2vmin;
     overflow: hidden;
     transition: all 0.7s;
-    /* background: pink; */
+    background: pink;
   }
   .top {
     transition: all 0.2s;
@@ -68,7 +68,7 @@ body{
   } */
   .menu a {
     text-decoration: none;
-    color: BLACK;
+    color: black;
     font-size: 2vmin;
     padding: 1.5vmin;
     
@@ -172,8 +172,7 @@ body{
       
     }
     .menu{
-     
-      height: 265px;
+      height: 250px;
       background: none;
       left: 0px;
       width: unset;

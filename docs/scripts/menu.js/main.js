@@ -17,7 +17,7 @@ let mainMenu = `
                     <a class="bio" href="/bio/">BIO</a>
                     <a class="archive" href="/archive">ARCHIVE</a>
                  
-                </li>
+                 </li>
               
               </ul>
             </nav>
