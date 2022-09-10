@@ -12,6 +12,11 @@
     font-family: "Helvetica", "Arial", sans-serif;
     height: max-content;
   }
+
+  .title{
+    font-style: italic;
+    font-size: 1rem;
+  }
 h1{
 
    position: absolute;
