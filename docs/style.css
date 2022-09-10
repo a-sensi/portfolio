@@ -21,7 +21,7 @@
 }
 .title img{
     margin: 0 auto;
-    margin-top: 13vmin;
+    /* margin-top: 13vmin; */
     margin-bottom: .5vmin;
     width: 55vmin;
     padding: 5px;
@@ -48,10 +48,12 @@
   display: grid;
     justify-content: center;
     padding: 0.2rem;
+    padding-bottom: 0px;
 }
   .vase video{
     width: 55vmin;
     margin: 0.24vmin;
+    margin-bottom: 0px;
     
   }
 
@@ -60,11 +62,12 @@
 
 @media (max-width: 500px) {
   .title img{
-    margin-top: 45vmin;
+    
     width: 75vmin;
     margin-left: 5vmin;
   }
   .vase video{
+    margin-top: 45vmin;
     margin-left: 5vmin;
   }
 }
