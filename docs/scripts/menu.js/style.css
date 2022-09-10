@@ -29,16 +29,16 @@ body{
    
   }
   .icon p {
-    color:rgb(231, 77, 43);
+    color:black;
 /*   
     font-style: italic; */
     font-size: 2vmin;
     text-align: center;
-    background: blue;
+    /* background: blue; */
     
   }
 .text:hover{
-  color: lightsteelblue;
+  color: rgb(231, 77, 43);
 }
 
   /* DROPDOWN */
@@ -56,7 +56,7 @@ body{
     margin-top: 2vmin;
     overflow: hidden;
     transition: all 0.7s;
-    background: pink;
+    /* background: pink; */
   }
   .top {
     transition: all 0.2s;
@@ -68,7 +68,7 @@ body{
   } */
   .menu a {
     text-decoration: none;
-    color: rgb(231, 77, 43);
+    color: BLACK;
     font-size: 2vmin;
     padding: 1.5vmin;
     
@@ -94,7 +94,7 @@ body{
 
 
 .home-house{
-  background: url('image/home-image-2.png');
+  background: url('image/home-image.png');
   height: 25px;
   width: 25px;
   background-position: center;
@@ -105,7 +105,7 @@ body{
 }
 
 .home-house:hover{
-  background: url('image/home-image.png');
+  background: url('image/home-image-2.png');
   height: 25px;
   width: 25px;
   background-position: center;
@@ -113,19 +113,19 @@ body{
 }
   .ow:hover {
     font-style: italic;
-    background: rgba(157,154,244, .3);
+    /* background: rgba(157,154,244, .3); */
   }
   .works:hover {
     font-style: italic;
-    background: rgba(185,210,100, .3);
+    /* background: rgba(185,210,100, .3); */
   }
   .bio:hover {
     font-style: italic;
-    background: rgba(185,210,100, .3);
+    /* background: rgba(185,210,100, .3); */
   }
   .archive:hover {
     font-style: italic;
-    background: rgba(185,210,100, .3);
+    /* background: rgba(185,210,100, .3); */
   }
   /* .sub-menu {
     display: flex;
@@ -139,15 +139,15 @@ body{
   } */
   .comic:hover{
     font-style: italic;
-    background: rgba(218, 232, 96, .3);
+    /* background: rgba(218, 232, 96, .3); */
   }
   .ani:hover{
     font-style: italic;
-    background: rgba(218, 232, 96, .3);
+    /* background: rgba(218, 232, 96, .3); */
   }
   .illu:hover{
     font-style: italic;
-    background: rgba(218, 232, 96, .3);
+    /* background: rgba(218, 232, 96, .3); */
     
   }
   /* .sub-menu a {
@@ -172,7 +172,8 @@ body{
       
     }
     .menu{
-      height: 250px;
+     
+      height: 265px;
       background: none;
       left: 0px;
       width: unset;

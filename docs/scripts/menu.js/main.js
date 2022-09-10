@@ -10,12 +10,12 @@ let mainMenu = `
             <nav class="menu">
              <ul>
           
-                    <a class="illu" href="/illustration/">Illustration</a>
-                    <a class="comic" href="/comics/">Comics</a>
-                    <a class="ani" href="/animation">Animation</a>
+                    <a class="illu" href="/illustration/">ILLUSTRATION</a>
+                    <a class="comic" href="/comics/">COMICS</a>
+                    <a class="ani" href="/animation">ANIMATION</a>
                     <a class="ow" href="/otherworld">OtherWorld</a>
-                    <a class="bio" href="/bio/">Bio</a>
-                    <a class="archive" href="/archive">Archive</a>
+                    <a class="bio" href="/bio/">BIO</a>
+                    <a class="archive" href="/archive">ARCHIVE</a>
                  
                 </li>
               
