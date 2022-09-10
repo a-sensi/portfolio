@@ -105,7 +105,7 @@ body{
 }
 
 .home-house:hover{
-  background: url('../../image/home-image-2.png');
+  background: url('../../images/home-image-2.png');
   height: 25px;
   width: 25px;
   background-position: center;
