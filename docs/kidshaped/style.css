@@ -16,17 +16,18 @@
   .title{
     font-style: italic;
     font-size: 1rem;
+    
   }
 h1{
-
+text-align: left;
    position: relative;
    
-    left: 2.6rem;
+    left: 1.7rem;
     /* color:rgb(231, 77, 43); */
     
     font-size: .86rem;
 
-    text-align: center;
+    text-align: left;
 }
 h1 :visited{
     text-decoration: none;
