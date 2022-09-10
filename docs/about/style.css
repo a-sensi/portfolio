@@ -52,7 +52,8 @@
       color: honeydew;
       max-width: 50ch;
       margin: 2vmin;
-      font-size: 2vmin;
+      margin-bottom: 0;
+      font-size: 2.5vmin;
     }
     .star{
       margin: 0 auto;
@@ -77,11 +78,14 @@
       max-width: 75vmin;
       margin: 0 auto;
       height: 25vmin;
+      margin-bottom: 5vmin;
+      
     }
     .smaller{
-      width: 25vmin;
-      height: 25vmin;
-      padding: .5vmin;
+      width: 30vmin;
+      height: 30vmin;
+      margin-bottom: 3vmin;
+      /* background-color: pink; */
       
     }
     .artist p{
@@ -98,7 +102,10 @@
     /*   background: blue; */
       height: max-content;
         display: flex;
-        justify-content: center;
+        justify-content: left;
+        
+      
+
     }
       
     .social img{
@@ -107,4 +114,10 @@
     
     
     
-    
+    #update {
+      font-style:normal;
+     
+    }
+    #him {
+      font-style: italic ;
+    }
