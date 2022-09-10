@@ -15,7 +15,7 @@ let mainMenu = `
                     <a class="ani" href="/animation">ANIMATION</a>
                     <a class="ow" href="/otherworld">OtherWorld</a>
                     <a class="bio" href="/bio/">BIO</a>
-                    <a class="archive" href="/archive">ARCHIVE</a>
+                   
                  
                  </li>
               
@@ -41,3 +41,4 @@ $('.icon').click(function() {
 // <li class="works"><a href="#">Works</a>
 
 
+/* <a class="archive" href="/archive">ARCHIVE</a> */
