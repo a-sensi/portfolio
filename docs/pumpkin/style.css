@@ -14,14 +14,14 @@
   }
 h1{
 
-   position: absolute;
+   position: relative;
    
     left: 2.6rem;
     /* color:rgb(231, 77, 43); */
     
     font-size: .86rem;
 
-    text-align: center;
+    
 }
 h1 :visited{
     text-decoration: none;
