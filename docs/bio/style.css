@@ -38,7 +38,17 @@
     font-style: italic;
     
   }
+
+  #like{
+    color: rgb(205,195,131);
+    font-style: italic; 
+    padding: 2px;
+    margin-left: 50px;
+  }
   
+  #like2 {
+    color:rgb(205,195,131)
+  }
   h1{
     font-size: 4vmin;
   }
@@ -49,7 +59,7 @@
     text-decoration: none;
   }
   h4:hover a{
-      color: rgb(231, 77, 43);
+      color: rgb(205,195,131);
   }
   .state p{
     color: black;
