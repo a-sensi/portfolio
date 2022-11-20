@@ -87,6 +87,11 @@ p {
   /* background: rgb(248, 242, 213); */
 /*   background: rgba(157, 154, 244, 0.3); */
 }
+.desk-shop:hover {
+  font-style: italic;
+  /* background: rgb(248, 242, 213); */
+/*   background: rgba(157, 154, 244, 0.3); */
+}
 .desk-works:hover {
   font-style: italic;
   /* background: rgb(248, 242, 213); */

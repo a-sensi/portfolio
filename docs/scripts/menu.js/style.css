@@ -115,6 +115,10 @@ body{
     font-style: italic;
     /* background: rgba(157,154,244, .3); */
   }
+  .shop:hover {
+    font-style: italic;
+    /* background: rgba(157,154,244, .3); */
+  }
   .works:hover {
     font-style: italic;
     /* background: rgba(185,210,100, .3); */
