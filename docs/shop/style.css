@@ -92,3 +92,13 @@ margin: 2vmin;
       column-count: 1;
     }
   }
+
+  .link:hover{
+    border:  3px solid rgb(202,190,129, 50%);
+    
+}
+
+.cart{
+    margin-left:6.5vmin;
+    
+}
