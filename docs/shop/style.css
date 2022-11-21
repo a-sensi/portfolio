@@ -12,6 +12,10 @@
     font-family: "Helvetica", "Arial", sans-serif;
     height: max-content;
   }
+  .cart{
+    margin-left:6.5vmin;
+    
+}
 h1{
 
    position: absolute;
@@ -60,11 +64,11 @@ margin: 2vmin;
     column-count: 3;
     column-gap: 10px;
     display: inline-block;
-    left: 50%;
+    
 
   }
   .gallery img {
-    width: 50% !important;
+    width: 100% !important;
     height: auto !important;
     /* margin-bottom: 0.35rem; */
     border: 3px solid transparent;
@@ -99,7 +103,3 @@ margin: 2vmin;
     
 }
 
-.cart{
-    margin-left:6.5vmin;
-    
-}
