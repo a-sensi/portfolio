@@ -54,6 +54,10 @@ margin-left: 2vmin;
 }
 .gallery {
   
+  display: flex;
+  justify-content: center;
+
+  
   padding: 4px;
   -webkit-column-count: 2;
   -webkit-column-gap: 0px;
@@ -61,7 +65,7 @@ margin-left: 2vmin;
   -moz-column-gap: 0px;
   column-count: 2;
   column-gap: 10px;
-  display: inline-block;
+  
 }
 .gallery img {
   width: 100% !important;
