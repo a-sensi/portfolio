@@ -103,3 +103,10 @@ margin: 2vmin;
     
 }
 
+#closed img{
+  height: 50vmin;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7vmin;
+}

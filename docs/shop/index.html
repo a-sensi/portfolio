@@ -20,7 +20,7 @@
     <!-- <div class="corner"></div> -->
    <a href="../index.html" class="return"> <img src="images/store.png" alt=""></a>
 
-<div class="cart">
+<!-- <div class="cart">
     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
@@ -29,9 +29,12 @@
         </form>
         
 
-</div>
+</div> -->
+<div id="closed">
+<a href="https://www.instagram.com/alxdae/"><img src="images/closed.jpg" alt=""></a>
 
-<div class="container">
+</div>
+<!-- <div class="container">
 <div class="gallery">
 
   <a href="card/"><img src="images/card01.png" class="link" alt=""></a>
@@ -43,7 +46,7 @@
 <a href="bookmark/"><img src="images/horse1.png" class="link"  alt=""></a>
 
 </div>
-</div>
+</div> -->
 
     <div class="footer"></div>
     <script src="../scripts/menu.js/main.js"></script>
