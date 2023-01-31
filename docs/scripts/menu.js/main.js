@@ -11,7 +11,7 @@ let mainMenu = `
              <ul>
           
                     <a class="illu" href="/illustration/">IMAGES</a>
-                    <a class="comic" href="/comics/">PAGES</a>
+                    <a class="comic" href="/comics/">COMICS</a>
                     <a class="ani" href="/animation">ANIMATION</a>
                     <a class="ow" href="/otherworld">OTHERWORLD</a>
                     <a class="bio" href="/bio/">ABOUT</a>

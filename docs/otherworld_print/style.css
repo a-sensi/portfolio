@@ -90,3 +90,9 @@ margin: 2vmin;
       column-count: 1;
     }
   }
+
+  #read a{
+text-decoration: underline;
+font-style: italic;
+color:rgb(109,192,158);
+  }
