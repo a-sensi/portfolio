@@ -143,3 +143,9 @@ h1	{
   }
 
 
+#about{
+	background-image:url("images/about.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
