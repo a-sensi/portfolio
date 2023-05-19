@@ -183,3 +183,11 @@ li img{
 	height: 5vmin;
 
   }
+
+  #shape img{
+	position:absolute;
+	height: 100px;
+	top: 15vmin;
+	left: 5vmin;
+	z-index: 1;
+  }
