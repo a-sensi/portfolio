@@ -1,0 +1,250 @@
+body{
+    font-family: "Helvetica", "Arial", sans-serif;
+    
+}
+
+.icon {
+    z-index: 2;
+    position: fixed;
+  
+    width: 55px;
+    margin-top: 6vmin;
+    margin-left: 45px;
+    
+    display: grid;
+    justify-content: center;
+    padding: 0.2rem;
+   
+  }
+  
+  .icon img {
+    width: 55px;
+    transition: all  2s ease-in-out;
+     text-decoration: none;
+     
+  }
+  .icon:hover img, a, p{
+    transform: rotate(360deg); 
+   text-decoration: none;
+   
+  }
+  .icon p {
+    color:black;
+/*   
+    font-style: italic; */
+    font-size: 2vmin;
+    text-align: center;
+    background: blue;
+    
+  }
+.text:hover{
+  color: rgb(231, 77, 43);
+}
+
+  /* DROPDOWN */
+  
+  .menu {
+    display:none;
+    position: fixed;
+    /* background: lightsteelblue; */
+    text-align: right;
+    width: 120px;
+    height: max-content;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 2vmin;
+    overflow: hidden;
+    transition: all 0.7s;
+    background: pink;
+  }
+  .top {
+    transition: all 0.2s;
+  }
+  
+
+  /* .icon:hover .menu {
+    height: 174px;
+  } */
+  .menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 2vmin;
+    padding: 1.5vmin;
+    
+    transition: all ;
+  
+  }
+  
+  .menu ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+  
+    
+  }
+
+  /* .home:hover{
+    font-style:italic;
+    background: rgba(185,210,100, .3);
+
+} */
+
+
+.home-house{
+  background: url('../../images/home-image.png');
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  margin-top: 2vmin;
+  margin-left: 55px;
+}
+
+.home-house:hover{
+  background: url('../../images/home-image-2.png');
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
+}
+  .ow:hover {
+    font-style: italic;
+    /* background: rgba(157,154,244, .3); */
+  }
+  .shop:hover {
+    font-style: italic;
+    /* background: rgba(157,154,244, .3); */
+  }
+  .works:hover {
+    font-style: italic;
+    /* background: rgba(185,210,100, .3); */
+  }
+  .bio:hover {
+    font-style: italic;
+    /* background: rgba(185,210,100, .3); */
+  }
+  .archive:hover {
+    font-style: italic;
+    /* background: rgba(185,210,100, .3); */
+  }
+  /* .sub-menu {
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 4rem;
+    overflow: hidden;
+    transition: all 0.5s;
+  } */
+  .comic:hover{
+    font-style: italic;
+    /* background: rgba(218, 232, 96, .3); */
+  }
+  .ani:hover{
+    font-style: italic;
+    /* background: rgba(218, 232, 96, .3); */
+  }
+  .illu:hover{
+    font-style: italic;
+    /* background: rgba(218, 232, 96, .3); */
+    
+  }
+  /* .sub-menu a {
+    color: rgb(231, 77, 43);
+    
+    width:66px;
+    /* text-align: center;
+    font-style: italic; */
+  
+
+  /* .menu .ow{
+    color: rgb(164,71,19);
+  
+  } */
+  /* .works:hover .sub-menu {
+    height: 4rem;
+  } */
+  
+  @media (max-width: 700px) {
+    .icon p{
+      font-size: calc(.5rem + 3vmin);
+      
+    }
+    .menu{
+      height: 250px;
+      background: none;
+      left: 0px;
+      width: unset;
+    }
+    .menu a{
+      font-size: 1rem;
+      /* font-size: calc(.75rem + 3vmin); */
+      margin: 0;
+     
+    }
+    .home-house img{
+      height: 25px;
+      width: 25px;
+      
+    }
+    .menu ul{
+      margin-left: 0;
+      display:flex;
+      text-align: center;
+      background:white;
+      
+    }
+    .icon img {
+      width: 35px;
+      margin-top: 5vmin;
+      margin-left: 20px;
+    }
+
+    .icon{
+      margin-left: 20px;
+      margin-top: 55px;
+      
+    }
+    .home-house{
+      margin-left: 35px;
+      margin-top: 25px;
+      margin-bottom: 50px;
+    }
+    .icon p{
+      background: none;
+      width: 75px;
+    }
+  }
+
+
+  @media (min-width: 700px) {
+
+
+    .icon {
+      display: none;
+      
+    }
+    
+  
+
+  
+    /* DROPDOWN */
+    
+    .menu {
+      display:none;
+      
+    }
+    
+  
+  
+  .home-house{
+   display: none;
+  }
+ 
+
+  }

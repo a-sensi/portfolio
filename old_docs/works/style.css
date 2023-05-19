@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  body {
+    border: 2vmin solid orangered;
+    border-image: url(https://bl6pap003files.storage.live.com/y4m0zNYgu8k5Hkk9U8ZNxH1hYokWIAMlulHwZojFMzXW2OkcXYhAw6OsjAeVp3tEpBAunxb6NhGiBevVez-EyX0qs0szRl3vrrR24kHue9NtMl3haedwSb9UmEI7EbvvbTTuK4-nqTpem_mYEJlpmpaQq4XXK9Ltg846nrmilxNgtFBeIJjKTPqRuwziTTYsEcr?width=6077&height=8477&cropmode=none) 10% round;
+    background: ivory;
+    background-attachment: fixed;
+      background-size: initial;
+    
+    font-family: "Helvetica", "Arial", sans-serif;
+    height: max-content;
+  }
+
+  .container{
+    height: max-content;
+    /*   background: pink; */
+      width: 80%;
+      margin: 0 auto;
+      margin-right: 0.4vmin;
+      margin-top: 0.4vmin;
+  }
+  .gallery {
+    padding: 4px;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 0px;
+  -moz-column-count: 4;
+  -moz-column-gap: 0px;
+  column-count: 4;
+  column-gap: 10px;
+  display: inline-block;
+  margin: 0 auto;
+  }
+  .gallery img {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: .35rem;
+  }
+  
+  @media (max-width: 1000px) {
+    .gallery {
+      -moz-column-count: 3;
+      -webkit-column-count: 3;
+      column-count: 3;
+    }
+  }
+  @media (max-width: 800px) {
+    .gallery {
+      -moz-column-count: 2;
+      -webkit-column-count: 2;
+      column-count: 2;
+    }
+}
+  @media (max-width: 500px) {
+    .gallery {
+      -moz-column-count: 1;
+      -webkit-column-count: 1;
+      column-count: 1;
+    }
+  }   

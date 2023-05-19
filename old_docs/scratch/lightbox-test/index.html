@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../lib/lightbox2-2.11.3/dist/css/lightbox.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Lightbox Test</title>
+</head>
+<body>
+    <a href="//picsum.photos/id/500/1000/1000" data-lightbox="image-1" data-title="my caption">
+        <img src="//picsum.photos/id/500/1000/1000" alt="">
+    </a>
+    <a href="//picsum.photos/id/506/1000/1000" data-lightbox="image-1" data-title="my caption">
+        <img src="//picsum.photos/id/506/1000/1000" alt="">
+    </a>
+    <a href="//picsum.photos/id/505/1000/1000" data-lightbox="image-1" data-title="my caption">
+        <img src="//picsum.photos/id/505/1000/1000" alt="">
+    </a>
+    <a href="//picsum.photos/id/502/1000/1000" data-lightbox="image-1" data-title="my caption">
+        <img src="//picsum.photos/id/502/1000/1000" alt="">
+    </a>
+    <script src="../../lib/lightbox2-2.11.3/dist/js/lightbox-plus-jquery.min.js"></script>
+
+    <script>
+        lightbox.option({
+          'resizeDuration': 20,
+          'wrapAround': true, 
+          'imageFadedDuration': 20, 
+          'fitImagesInViewport': true, 
+        })
+    </script>
+    
+</body>
+</html>

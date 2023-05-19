@@ -1,0 +1,41 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+  font-family:"Helvetica", "Arial", sans-serif;
+}
+
+.foot-container{
+
+  /* margin: 0 auto; */
+  width: max-content;
+  padding: 1vmin;
+  /* margin-left: .4vmin; */
+  position:fixed;
+     bottom:2vmin;
+     left: 2vmin;
+}
+
+.social{
+
+  display: flex;
+    justify-content: center;
+}
+  
+.social img{
+  width: 5vmin;
+}
+
+h5{
+  color: black;
+  font-size: 1.5vmin;
+  font-style: italic;
+  text-align: justify;
+}
+  
+h3{
+  color: black;
+  font-size: 1.5vmin;
+
+  text-align: center;
+}
+  

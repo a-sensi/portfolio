@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background: black;
+    font-family:"Helvetica", "Arial", sans-serif;
+    height: max-content;
+    
+  }
+  /* MIDDLE */
+
+
+  .container{
+    /*   background: pink; */
+      padding: .5rem;
+      max-width: 75vmin;
+      margin:0 auto;
+      margin-top: .5vmin;
+    }
+    .div{
+      display: grid;
+      justify-content: center;
+      padding: 0.2rem;
+    }
+    
+    .cover img{
+      height: 50vmin;
+      margin-top: 3vmin;
+    }
+    
+    .name h1, h4{
+      color: rgb(231, 77, 43);
+      text-align: center;
+      margin: .5vmin;
+      
+      font-style: italic;
+      
+    }
+    
+    h1{
+      font-size: 4vmin;
+    }
+    h4 a{
+      font-size: 2vmin;
+      color: rgb(231, 77, 43);
+      list-style-type: none;
+      text-decoration: none;
+    }
+    
+    .about p{
+      color: honeydew;
+      max-width: 50ch;
+      margin: 2vmin;
+      margin-bottom: 0;
+      font-size: 2.5vmin;
+      margin-top: 0;
+    }
+    .star{
+      margin: 0 auto;
+      width: max-content;
+    }
+    .star img{
+      
+      height: 3vmin;
+      width: 3vmin;
+      object-fit: cover;
+      transition: transform 2s ease-in-out;
+    }
+    
+    .star:hover img{
+      transform: rotate(360deg);
+    }
+    
+    .below{
+    /*   background: pink; */
+      display: flex;
+      justify-content: center;
+      max-width: 75vmin;
+      margin: 0 auto;
+      height: 25vmin;
+      margin-bottom: 5vmin;
+      
+    }
+    .smaller{
+      width: 30vmin;
+      height: auto;
+      /* height: 30vmin; */
+      margin-bottom: 3vmin;
+      margin-right: 5vmin;
+      /* background-color: pink; */
+      
+    }
+    .artist p{
+      list-style-type: none;
+      color: honeydew;
+      margin-top: 5%;
+      
+    /*   text-align: center; */
+      font-size: 2vmin;
+      font-style: italic;
+    }
+    
+    .social{
+    /*   background: blue; */
+      height: max-content;
+        display: flex;
+        justify-content: left;
+        
+      
+
+    }
+      
+    .social img{
+      width: 5vmin;
+    }
+    
+    
+    
+    #update {
+      font-style:normal;
+     
+    }
+    #him {
+      font-style: italic ;
+    }

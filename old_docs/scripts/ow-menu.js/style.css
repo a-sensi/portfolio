@@ -1,0 +1,145 @@
+
+.ow{
+  width: max-content;
+  margin: 0 auto;
+}
+.ow img{
+    display: grid;
+    justify-content: center;
+    padding: 0.2rem;
+    height: 12vmin;
+    margin: 0 auto;
+  }
+  
+  .ow-menu-block {
+    text-decoration: none;
+    background: darkolivegreen;
+    text-align: center;
+    max-width: 550px;
+    height: 3vmin;
+    margin: 0 auto;
+    
+    
+  }
+  
+  .ow-menu-block a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: ivory;
+    width: 24vmin;
+    font-size: 1.5vmin;
+    /* margin: 1vmin; */
+    margin-top: .5vmin;
+    margin-bottom: .75vmin;
+  }
+  
+  .ow-menu-block ul {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    list-style-type: none;
+    
+  }
+  
+  .ow-sub-menu {
+    display: none;
+    background: darkgreen;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: max-content;
+    /* font-size: 1.5vmax; */
+    overflow: hidden;
+    width: max-content;
+    z-index: 50;
+    margin:0 auto;
+    /* margin-top: .5vmin; */
+    transition: all ;
+  }
+  .ow-sub-menu a {
+    color: ivory;
+    transition: all  4s;
+    width: max-content;
+    /* margin-top: .3vmin; */
+    font-size: 1.5vmin;
+  
+  }
+  a:hover {
+    font-style: italic;
+    color: lightsteelblue;
+  }
+  .ow-sub-menu:hover {
+    background: lightsteelblue;
+    
+  }
+
+ @media (max-width: 500px) {
+   
+    .ow-menu-block{
+      height: 6vmin;
+    }
+      .ow-menu-block a{
+        font-size: 4vmin;
+        margin-bottom: 2px;
+      }
+      .ow-sub-menu a{
+        font-size: 3vmin;
+       
+      }
+      .ow img{
+        height:15vmin;
+      }
+    }
+  /* .short:hover .ow-sub-menu {
+    height: 2vmin;
+    z-index: -4;
+  } */
+  
+
+  .ow-read-menu {
+    display: none;
+    background: darkgreen;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: max-content;
+    /* font-size: 1.5vmax; */
+    overflow: hidden;
+    width: 67px;
+    z-index: 50;
+    margin:0 auto;
+    /* margin-top: .5vmin; */
+    transition: all 0s;
+
+  }
+  .ow-read-menu a {
+    color: ivory;
+    transition: all  4s;
+    width: 67px;
+    background: darkgreen;
+    /* margin-top: .3vmin; */
+    font-size: 1.5vmin;
+    margin: 0 auto;
+  padding: 1vmin;
+  transition: all 0s;
+  
+  }
+  #one:hover {
+    background: lightsteelblue;
+    
+  }
+  #two:hover {
+    background: lightsteelblue;
+    
+  }
+  #three:hover {
+    background: lightsteelblue;
+    
+  }
+  #pro:hover {
+    background: lightsteelblue;
+    
+  }

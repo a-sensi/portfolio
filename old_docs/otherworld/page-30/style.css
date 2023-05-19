@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: black;
+  font-family:"Helvetica", "Arial", sans-serif;
+  height: 105vh;
+  
+}
+
+.cover{
+  display: grid;
+  justify-content: center;
+  padding: 0.5rem;
+}
+.cover img{
+    background: lightsteelblue;
+    
+    height: 75vmin;
+    
+}
+@media (max-width: 500px) {
+  .cover img{
+      width: 75vmin;
+      height: 105vmin;
+  }
+}
+
+.number{
+  color: ivory;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.5vmin;  
+  padding-bottom: .5vmin;
+  }
+
+.pages {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: .5vmin;
+  max-width: 107vmin;
+  margin: 0 auto;
+  padding: 0.5rem;
+  /* margin-top: 2vmin; */
+}
+
+.page-child img{
+  background: lightsteelblue;
+  height: 75vmin;
+  
+}
+
+
+
+.button-row{
+  /* background: pink; */
+  height: 25px;
+  width: max-content;
+  margin: 0 auto;
+  display: flex;
+  z-index: 5;
+  
+}
+.button-images img{
+  height: 25px;
+}
+.button-images {
+  display: flex;
+    justify-content: center;
+}
+/* CHANGING BUTTONS */
+#db{
+  background: url('../images/backward-2.png');
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
+  
+}
+#db:hover{
+  background: url('../images/backward-2-two.png');
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
+}
+
+#b{
+  background: url('../images/backward-1.png');
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
+  
+}
+#b:hover{
+  background: url('../images/backward-1-two.png');
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
+}
+#h{
+  background: url('../images/home.png');
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
+  
+}
+#h:hover{
+  background: url('../images/home-two.png');
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
+}
+#f{
+  background: url('../images/forward-1.png');
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+#f:hover{
+  background: url('../images/forward-1-two.png');
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
+}
+
+#df{
+  background: url('../images/forward-2.png');
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
+  
+}
+#df:hover{
+  background: url('../images/forward-2-two.png');
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
+}
+
+/* CHANGING BUTTONSSS */
+
+
+.extreme{
+  padding-right: 2vmin;
+  padding-left: 2vmin;
+}
+@media (max-width: 500px) {
+  .page-child {
+    display: grid;
+    grid-column: 1/-1;
+    margin: 0 auto;
+    
+  }
+  .page-child img{
+    height: 125vmin;
+   
+}
+  
+  body{
+    height: 320vmin;
+  }
+
+  .button-move{
+    position:absolute;
+    margin-left: 10vh;
+    margin-top:  1vh;
+    
+  }
+  .extreme{
+    margin-right: 25px;
+  margin-left: 25px;
+  }
+  .number{
+    font-size: 3vmin;
+  }
+
+
+
+  }
