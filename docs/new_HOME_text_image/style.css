@@ -14,6 +14,7 @@ section {
 	scroll-snap-align: start;
 	text-align: center;
 	position: relative;
+	padding-top: .5vmin;
 }
 h1	{
 	position: absolute;
@@ -139,7 +140,7 @@ h1	{
 }
 
 .gallery {
-	border: 1px solid lightgray;
+	border: 2px dotted black;
 	padding: 1rem;
 	display: flex;
 	overflow-x: scroll;
@@ -155,7 +156,7 @@ li {
 	border-radius: 3px;
 	font-size: 0;
 	margin-right: 3rem;
-	margin-top: 7vmin;
+	/* margin-top: 7vmin; */
 }
 
 li img{
@@ -176,4 +177,9 @@ li img{
 		height: 75%; 
 	}
 	
+  }
+
+  .riso_type{
+	height: 5vmin;
+
   }
