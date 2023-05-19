@@ -56,13 +56,13 @@ h1	{
   }
   #scroll-text2 {
 	/* animation properties */
-	-moz-transform: translateX(-100%);
-	-webkit-transform: translateX(-100%);
-	transform: translateX(-100%);
+	-moz-transform: translateX(0);
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
 	
 	-moz-animation: my-animation1 20s linear infinite;
 	-webkit-animation: my-animation1 20s linear infinite;
-	animation: my-animation1 40s linear infinite;
+	animation: my-animation1 20s linear infinite;
 	display: flex;
 	position: relative; 
 	top:85vh;
@@ -124,9 +124,9 @@ h1	{
 	  transform: translateX(-100%);
 	}
 	to {
-	  -moz-transform: translateX(100%);
-	  -webkit-transform: translateX(100%);
-	  transform: translateX(100%);
+	  -moz-transform: translateX(0%);
+	  -webkit-transform: translateX(0%);
+	  transform: translateX(0%);
 	}
   }
  
