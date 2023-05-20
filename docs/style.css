@@ -183,10 +183,7 @@ li img{
 	margin-right: 5vmin;
 
   }
-  .comics_type{
-	height: 5vmin;
-
-  }
+  
 
   #shape img{
 	position:absolute;
@@ -195,3 +192,16 @@ li img{
 	left: 5vmin;
 	z-index: 1;
   }
+
+  #star img{
+
+	height: 5vmin;
+
+  }
+
+#star:hover img{
+	background-color: rgb(195,239,30);
+	}
+
+	
+	
