@@ -51,7 +51,11 @@ a:hover, a:focus { color:#666; text-decoration:none }
 .umbra{
 	height:55vh;
 }
-
+.umbra_type{
+	height: 45vh;
+	margin: auto;
+	
+}
 .star{
 	height: 55vh;
 }
@@ -75,4 +79,10 @@ html {
 	background-image: url("images/background_one.png");
 
 	
+}
+
+
+.three{
+	background-image: url(images/background_three.png
+	);
 }
