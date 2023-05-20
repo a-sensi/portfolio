@@ -181,7 +181,12 @@ li img{
   .riso_type{
 	height: 5vmin;
 	margin-right: 5vmin;
+	
 
+  }
+  .riso_type:hover{
+	background-color:rgb(255,118,0);
+	
   }
   
 
@@ -194,7 +199,6 @@ li img{
   }
 
   #star img{
-
 	height: 5vmin;
 
   }
