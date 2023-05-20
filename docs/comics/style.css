@@ -3,11 +3,11 @@ a, a:active, a:visited { color:#c30 }
 a:visited { color:#c90 }
 a:hover, a:focus { color:#666; text-decoration:none }
 
-section { position:relative; height:100vh }
+
 
 .left-half, .right-half { position:absolute;top:0; left:0; bottom:0; right:50% }
 .right-half { background:#fff; left:50%; right:0; overflow:hidden; padding-bottom:2% }
-.two .right-half { background:#ddd }
+
 .right-half div { height:100%; overflow:auto; -webkit-overflow-scrolling:touch; padding:2% 5%; margin-right:-17px /* scrollbar offset */ }
 .left-half span { font-size:calc(7vw + 7vh + 5vmin); position:absolute; top:50%; left:50%; transform:translate(-50%, -50%) /* http://codepen.io/CrocoDillon/pen/fBJxu */ }
 
@@ -26,7 +26,7 @@ section { position:relative; height:100vh }
 	height: 5vh;
 	margin: auto;
 	position:fixed;
-	
+	z-index: 999;
 }
 .home-fill{
 	height:5vh;
@@ -34,7 +34,7 @@ section { position:relative; height:100vh }
 	position:fixed;
 	margin:auto;
 	opacity:0;
-	z-index: 1;
+	z-index: 999;
 
 }
 
@@ -45,5 +45,34 @@ section { position:relative; height:100vh }
 }
 
 .swan{
+	height: 55vmin;
+}
+
+.umbra{
+	height:55vh;
+}
+
+.star{
 	height: 55vh;
+}
+
+section {
+
+	height: 100vh;
+	scroll-snap-align: start;
+	text-align: center;
+	position: relative;
+	padding-top: .5vmin;
+}
+html {
+	font-family: sans-serif;
+	scroll-snap-type: mandatory;
+	scroll-snap-points-y: repeat(100vh);
+	scroll-snap-type: y mandatory;
+}
+
+.one{
+	background-image: url("images/background_one.png");
+
+	
 }
