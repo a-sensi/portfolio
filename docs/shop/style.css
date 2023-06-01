@@ -54,6 +54,10 @@ h1	{
 	display: flex;
 	width:100vw;
   }
+  #scroll-text img:hover {
+	background: rgb(1,146,66);
+	
+  }
   #scroll-text2 {
 	/* animation properties */
 	-moz-transform: translateX(0);

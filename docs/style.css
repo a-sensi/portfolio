@@ -72,12 +72,17 @@ h1	{
 	height: 5vmin;
   }
   
-
+  #scroll-text img:hover {
+	background: rgb(255,115,119);
+	
+  }
   #scroll-text2 img{
 	height: 7vmin;
-	
-	
+  }
 
+  #scroll-text2 img:hover {
+	background: black;
+	
   }
   /* for Firefox */
   @-moz-keyframes my-animation {
@@ -197,6 +202,11 @@ li img{
 	z-index: 1;
   }
 
+  #shape img:hover{
+	height:105px;
+	top: 14.5vmin;
+	left: 4.5vmin;
+  }
   #star img{
 	height: 5vmin;
 
