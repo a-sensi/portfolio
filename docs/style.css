@@ -207,4 +207,11 @@ li img{
 	}
 
 	
+	#shop img{
+		height: 5vmin;
+		margin-left: 5vmin;
+	  }
 	
+	#shop:hover img{
+		background-color: rgb(136,137,254);
+		}
