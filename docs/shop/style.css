@@ -8,14 +8,13 @@ html {
 	scroll-snap-type: y mandatory;
 }
 section {
-
-	
 	height: 100vh;
 	scroll-snap-align: start;
 	text-align: center;
 	position: relative;
 	padding-top: .5vmin;
 }
+
 h1	{
 	position: absolute;
 	top: 50%;
@@ -27,13 +26,6 @@ h1	{
 	font-size: calc(1rem + 3vw);
 }
 
-  .home{
-    background-image:url("images/background.jpg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-  
-}
 
 /* //// */
 #scroll-container {
@@ -136,12 +128,6 @@ h1	{
  
 
 
-#about{
-	background-image:url("images/about.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 
 
@@ -155,10 +141,7 @@ li {
 	/* margin-top: 7vmin; */
 }
 
-li img{
-	height: 100%
 
-}
 @media (max-width: 700px) {
 	
 	#scroll-text img{
@@ -180,29 +163,20 @@ li img{
   .all_type{
 	height: 6vmin;
 	margin-right: 3vmin;
-	
-
   }
   .all_type:hover{
 	background-color:rgb(161,222,255);
   }
   
-  
-
- 
 
   #star img{
 	height: 6vmin;
 margin-right: 3vmin;
   }
-
 #star:hover img{
 	background-color: rgb(195,239,30);
 	}
-
-
-	
-	.poster_type{
+.poster_type{
 		height: 6vmin;
 		margin-right: 3vmin;
 		
@@ -258,6 +232,65 @@ margin-right: 3vmin;
 	#shop_one img:hover{ 
 		background-image: url(images/adam_two_poster.png);
 	}
+
+	#shop_two img{ 
+		background-image: url(images/window_poster.png);
+		
+	}
+
+	#shop_two img:hover{ 
+		background-image: url(images/adam_two_poster.png);
+	}
+	#shop_three img{ 
+		background-image: url(images/cabeswater_poster.png);
+		
+	}
+
+	#shop_three img:hover{ 
+		background-image: url(images/adam_two_poster.png);
+	}
+
+	#shop_four img{ 
+		background-image: url(images/horse_misc.png);
+	}
+
+	#shop_four img:hover{ 
+		background-image: url(images/adam_two_poster.png);
+	}
+	#shop_five img{ 
+		background-image: url(images/home_poster.png);
+	}
+
+	#shop_five img:hover{ 
+		background-image: url(images/adam_two_poster.png);
+	}
+
+	#shop_six img{ 
+		background-image: url(images/calendar_misc.png);
+	}
+
+	#shop_six img:hover{ 
+		background-image: url(images/adam_two_poster.png);
+	}
+
+	#shop_seven img{ 
+		background-image: url(images/adam_poster.png);
+	}
+
+	#shop_seven img:hover{ 
+		background-image: url(images/adam_two_poster.png);
+	}
+
+
+	
+	
+	
+
+	
+	
+
+	
+	
 	@media (max-width: 1000px) {
 		.gallery {
 		grid-template-columns: repeat(3, 30vw);}
