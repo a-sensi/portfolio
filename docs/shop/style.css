@@ -65,6 +65,7 @@ h1	{
 	animation: my-animation1 20s linear infinite;
 	display: flex;
 	position: relative; 
+	top:85vh;
   }
   
   #scroll-text img{
@@ -166,9 +167,13 @@ li img{
 	#scroll-text img{
 		height: 15vmin;
 	}
-
+	#scroll-text2{
+		top:75vh;
+	}
 	#scroll-text2 img{
-		height: 10vmin;}
+		height: 10vmin;
+		}
+		
 	li img{
 		height: 75%; 
 	}
