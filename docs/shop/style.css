@@ -65,7 +65,6 @@ h1	{
 	animation: my-animation1 20s linear infinite;
 	display: flex;
 	position: relative; 
-	top:85vh;
   }
   
   #scroll-text img{
@@ -167,9 +166,7 @@ li img{
 	#scroll-text img{
 		height: 15vmin;
 	}
-	#scroll-text2 {
-		top:70vh;
-	  }
+
 	#scroll-text2 img{
 		height: 10vmin;}
 	li img{
@@ -178,33 +175,44 @@ li img{
 	
   }
 
-  .riso_type{
-	height: 5vmin;
-	margin-right: 5vmin;
+  .all_type{
+	height: 6vmin;
+	
 	
 
   }
-  .riso_type:hover{
-	background-color:rgb(245,124,17);
+  .all_type:hover{
+	background-color:rgb(161,222,255);
   }
   
+  
 
-  #shape img{
-	position:absolute;
-	height: 100px;
-	top: 15vmin;
-	left: 5vmin;
-	z-index: 1;
-  }
+ 
 
   #star img{
-	height: 5vmin;
-
+	height: 6vmin;
+margin-right: 3vmin;
   }
 
 #star:hover img{
 	background-color: rgb(195,239,30);
 	}
 
+	.poster_type{
+		height: 6vmin;
+		margin-right: 3vmin;
+		
+	  }
+	  .poster_type:hover{
+		background-color:rgb(255,119,0);
+	  }
 	
+	  .misc_type{
+		height: 6vmin;
+		margin-right: 3vmin;
+		
+	  }
+	  .misc_type:hover{
+		background-color:rgb(253,141,255);
+	  }
 	
