@@ -201,9 +201,7 @@ margin-right: 3vmin;
 	}
 
 
-	#shop_gallery{
-		height: max-content;
-	}
+	
 	.poster_type{
 		height: 6vmin;
 		margin-right: 3vmin;
@@ -223,63 +221,63 @@ margin-right: 3vmin;
 	  }
 	
 
-	
-
-	  .container {
-   
-		height: max-content;
-	
-		width: 80%;
-		margin: 0 auto;
-		margin-right: 0.4vmin;
-		margin-top: 0.4vmin;
-	  }
 	  .gallery {
-	   
-		padding: 4px;
-		-webkit-column-count: 3;
-		-webkit-column-gap: 0px;
-		-moz-column-count: 3;
-		-moz-column-gap: 0px;
-		column-count: 3;
-		column-gap: 10px;
+		border: 1px solid lightgray;
+		padding: 1rem;
+		display: grid;
+		grid-template-columns: repeat(3, 50vmin);
+		grid-template-rows: repeat(10, 50vmin);
+		grid-column-gap: 5rem;
+		grid-row-gap: 5rem;
+		flex-wrap: wrap;
+		overflow: scroll;
+		height: 90vh;
+		scroll-snap-type: both mandatory;
+		scroll-padding: 1rem;
+  justify-content: center;
+	}
+	
+	li {
+		scroll-snap-align: start;
 		display: inline-block;
-		
-	
-	  }
-	  .gallery img {
-		width: 100% !important;
-		height: auto !important;
-		/* margin-bottom: 0.35rem; */
-		border: 3px solid transparent;
-		
-	  }
-	
-	
-	  @media (max-width: 1000px) {
+		border-radius: 3px;
+		font-size: 0;
+	}
+
+	.gallery img{
+		height:60vmin;
+		background: url("images/cabeswater_poster.png");
+		background-position: center;
+		background-size: cover;
+	}
+
+	#shop_one img{ 
+		background-image: url(images/adam_poster.png);
+	}
+
+	#shop_one img:hover{ 
+		background-image: url(images/adam_two_poster.png);
+	}
+	@media (max-width: 1000px) {
 		.gallery {
-		  -moz-column-count: 3;
-		  -webkit-column-count: 3;
-		  column-count: 3;
-		}
+		grid-template-columns: repeat(3, 30vw);}
+		
 	  }
 	  @media (max-width: 800px) {
 		.gallery {
-		  -moz-column-count: 2;
-		  -webkit-column-count: 2;
-		  column-count: 2;
-		}
-	  }
-	  @media (max-width: 500px) {
-		.gallery {
-		  -moz-column-count: 1;
-		  -webkit-column-count: 1;
-		  column-count: 1;
-		}
-	  }
-	
-	  .link:hover{
-		border:  3px solid rgb(202,190,129, 50%);
+		grid-template-columns: repeat(2, 30vw);}
 		
+	  }
+	  @media (max-width: 700px) {
+		.gallery {
+		grid-template-columns: repeat(1, 30vw);
+		grid-template-rows: repeat(10, 65vmin);
 	}
 	
+	.gallery img{
+		height:70vmin;
+		padding:3vmin;
+	}
+		
+	  }
+	  
