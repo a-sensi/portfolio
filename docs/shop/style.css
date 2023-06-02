@@ -209,25 +209,43 @@ margin-right: 3vmin;
 		scroll-snap-type: both mandatory;
 		scroll-padding: 1rem;
   justify-content: center;
+  
 	}
 	
 	li {
 		scroll-snap-align: start;
-		display: inline-block;
+		display:grid;
 		border-radius: 3px;
-		font-size: 0;
+		font-size: 10px;
+		color:green;
+		text-align: center;
+		float: right;
+		width: max-content;
+		border: 3px solid green;
+		height: max-content
 	}
-
+	li text{
+		color: white;
+		background-color: black;
+		display: flex;
+		justify-content: center;
+	
+		
+	}
 	.gallery img{
 		height:60vmin;
 		background: url("images/cabeswater_poster.png");
 		background-position: center;
 		background-size: cover;
+		
+	
 	}
 
 	#shop_one img{ 
 		background-image: url(images/adam_poster.png);
 	}
+
+	
 
 	#shop_one img:hover{ 
 		background-image: url(images/adam_two_poster.png);
@@ -239,7 +257,7 @@ margin-right: 3vmin;
 	}
 
 	#shop_two img:hover{ 
-		background-image: url(images/adam_two_poster.png);
+		background-image: url(images/#.png);
 	}
 	#shop_three img{ 
 		background-image: url(images/cabeswater_poster.png);
@@ -247,7 +265,7 @@ margin-right: 3vmin;
 	}
 
 	#shop_three img:hover{ 
-		background-image: url(images/adam_two_poster.png);
+		background-image: url(images/#.png);
 	}
 
 	#shop_four img{ 
@@ -255,14 +273,14 @@ margin-right: 3vmin;
 	}
 
 	#shop_four img:hover{ 
-		background-image: url(images/adam_two_poster.png);
+		background-image: url(images/#.png);
 	}
 	#shop_five img{ 
 		background-image: url(images/home_poster.png);
 	}
 
 	#shop_five img:hover{ 
-		background-image: url(images/adam_two_poster.png);
+		background-image: url(images/#.png);
 	}
 
 	#shop_six img{ 
@@ -270,20 +288,45 @@ margin-right: 3vmin;
 	}
 
 	#shop_six img:hover{ 
-		background-image: url(images/adam_two_poster.png);
+		background-image: url(images/#.png);
 	}
 
 	#shop_seven img{ 
-		background-image: url(images/adam_poster.png);
+		background-image: url(images/lighthouse_comics.png);
 	}
 
 	#shop_seven img:hover{ 
-		background-image: url(images/adam_two_poster.png);
+		background-image: url(images/lighthouse_one_comcis.png);
+	}
+	#shop_eight img{ 
+		background-image: url(images/umbra_comics.png);
 	}
 
+	#shop_eight img:hover{ 
+		background-image: url(images/umbra_one_comics.png);
+	}
 
-	
-	
+	#shop_nine img{ 
+		background-image: url(images/twin_comics.png);
+	}
+
+	#shop_nine img:hover{ 
+		background-image: url(images/twin_one_comics.png);
+	}
+	#shop_ten img{ 
+		background-image: url(images/margin_comic.png);
+	}
+
+	#shop_ten img:hover{ 
+		background-image: url(images/margin_one_comic.png);
+	}
+	#shop_eleven img{ 
+		background-image: url(images/card_misc.png);
+	}
+
+	#shop_eleven img:hover{ 
+		background-image: url(images/card_one_misc.png);
+	}
 	
 
 	
