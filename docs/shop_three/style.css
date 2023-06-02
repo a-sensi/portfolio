@@ -131,15 +131,7 @@ h1	{
 
 
 
-li {
-	scroll-snap-align: center;
-	display: inline-block;
-	height: 83vh;
-	border-radius: 3px;
-	font-size: 0;
-	margin-right: 3rem;
-	/* margin-top: 7vmin; */
-}
+
 
 
 @media (max-width: 700px) {
@@ -154,11 +146,9 @@ li {
 		height: 10vmin;
 		}
 		
-	li img{
-		height: 75%; 
-	}
 	
   }
+
 
   .all_type{
 	height: 6vmin;
@@ -168,12 +158,11 @@ li {
 	background-color:rgb(161,222,255);
   }
   
-
-  #star img{
+  .comics_type{
 	height: 6vmin;
-margin-right: 3vmin;
+	margin-right: 3vmin;
   }
-#star:hover img{
+	.comics_type:hover{
 	background-color: rgb(195,239,30);
 	}
 .poster_type{
@@ -195,137 +184,124 @@ margin-right: 3vmin;
 	  }
 	
 
-	  .gallery {
-		border: 1px solid lightgray;
-		padding: 1rem;
-		display: grid;
-		grid-template-columns: repeat(3, 50vmin);
-		grid-template-rows: repeat(10, 50vmin);
-		grid-column-gap: 5rem;
-		grid-row-gap: 5rem;
-		flex-wrap: wrap;
-		overflow: scroll;
-		height: 90vh;
-		scroll-snap-type: both mandatory;
-		scroll-padding: 1rem;
-  justify-content: center;
+
+		 .row {
+			border: 1px solid lightgray;
+			display: grid;
+			flex-wrap: wrap;
+			overflow: scroll;
+			height: 90vh;
+			scroll-snap-type: both mandatory;
+			scroll-padding: 1rem;
+	  justify-content: center;
   
-	}
+	} 
 	
-	li {
+	.row img{
 		scroll-snap-align: start;
 		display:grid;
 		border-radius: 3px;
-		font-size: 10px;
-		color:green;
 		text-align: center;
-		float: right;
 		width: max-content;
-		border: 3px solid green;
-		height: max-content
+		background: url("images/cabeswater_poster.png");
+		background-position: center;
+		background-size: cover;
+		height:70vmin;
+		padding:3vmin;
+		
 	}
-	li text{
+	.row text{
 		color: white;
 		background-color: black;
 		display: flex;
 		justify-content: center;
-	
+
 		
-	}
-	.gallery img{
-		height:60vmin;
-		background: url("images/cabeswater_poster.png");
-		background-position: center;
-		background-size: cover;
-		
-	
 	}
 
-	#shop_one img{ 
+	#shop_one{ 
 		background-image: url(images/adam_poster.png);
 		
 	}
 
-	
-
-	#shop_one img:hover{ 
+	#shop_one:hover{ 
 		background-image: url(images/adam_two_poster.png);
 	}
 
-	#shop_two img{ 
+	#shop_two{ 
 		background-image: url(images/window_poster.png);
 		
 	}
 
-	#shop_two img:hover{ 
+	#shop_two:hover{ 
 		background-image: url(images/#.png);
 	}
-	#shop_three img{ 
+	#shop_three{ 
 		background-image: url(images/cabeswater_poster.png);
 		
 	}
 
-	#shop_three img:hover{ 
+	#shop_three:hover{ 
 		background-image: url(images/#.png);
 	}
 
-	#shop_four img{ 
+	#shop_four { 
 		background-image: url(images/horse_misc.png);
 	}
 
-	#shop_four img:hover{ 
+	#shop_four:hover{ 
 		background-image: url(images/#.png);
 	}
-	#shop_five img{ 
+	#shop_five{ 
 		background-image: url(images/home_poster.png);
 	}
 
-	#shop_five img:hover{ 
+	#shop_five:hover{ 
 		background-image: url(images/#.png);
 	}
 
-	#shop_six img{ 
+	#shop_six{ 
 		background-image: url(images/calendar_misc.png);
 	}
 
-	#shop_six img:hover{ 
+	#shop_six:hover{ 
 		background-image: url(images/#.png);
 	}
 
-	#shop_seven img{ 
+	#shop_seven{ 
 		background-image: url(images/lighthouse_comics.png);
 	}
 
-	#shop_seven img:hover{ 
+	#shop_seven:hover{ 
 		background-image: url(images/lighthouse_one_comcis.png);
 	}
-	#shop_eight img{ 
+	#shop_eight{ 
 		background-image: url(images/umbra_comics.png);
 	}
 
-	#shop_eight img:hover{ 
+	#shop_eight:hover{ 
 		background-image: url(images/umbra_one_comics.png);
 	}
 
-	#shop_nine img{ 
+	#shop_nine{ 
 		background-image: url(images/twin_comics.png);
 	}
 
-	#shop_nine img:hover{ 
+	#shop_nine:hover{ 
 		background-image: url(images/twin_one_comics.png);
 	}
-	#shop_ten img{ 
+	#shop_ten{ 
 		background-image: url(images/margin_comic.png);
 	}
 
-	#shop_ten img:hover{ 
+	#shop_ten:hover{ 
 		background-image: url(images/margin_one_comic.png);
 	}
-	#shop_eleven img{ 
+	#shop_eleven{ 
 		background-image: url(images/card_misc.png);
 	}
 
-	#shop_eleven img:hover{ 
+	#shop_eleven:hover{ 
 		background-image: url(images/card_one_misc.png);
 	}
 	
@@ -335,56 +311,26 @@ margin-right: 3vmin;
 
 	
 	
-	@media (max-width: 1000px) {
-		.gallery {
-		grid-template-columns: repeat(3, 30vw);}
-		
-	  }
-	  @media (max-width: 800px) {
-		.gallery {
-		grid-template-columns: repeat(2, 30vw);}
-		
-	  }
-	  @media (max-width: 700px) {
-		.gallery {
-		grid-template-columns: repeat(1, 30vw);
-		grid-template-rows: repeat(10, 65vmin);
-	}
+	  
+
+
+
+
+	  
 	
-	.gallery img{
-		height:70vmin;
-		padding:3vmin;
-	}
-		
-	  }
-	  
-
-
-
-
-	  .row {
-		margin: 8px -16px;
-	  }
-	  
-	  /* Add padding BETWEEN each column (if you want) */
-	  .row,
-	  .row > .column {
-		padding: 8px;
-	  }
-	  
 	  /* Create three equal columns that floats next to each other */
 	  .column {
-		float: left;
-		width: 33.33%;
+	
 		display: none; /* Hide columns by default */
 	  }
+	  
 	  
 	  /* Clear floats after rows */
 	  .row:after {
 		content: "";
 		display: table;
 		clear: both;
-	  }
+	  } 
 	  
 	  /* Content */
 	  .content {
@@ -407,12 +353,18 @@ margin-right: 3vmin;
 	  }
 	  
 	  /* Add a grey background color on mouse-over */
-	  .btn:hover {
-		background-color: #ddd;
-	  }
+	  
 	  
 	  /* Add a dark background color to the active button */
-	  .btn.active {
-		background-color: #666;
+	  .btn.active img{
+		background-color: hotpink;
 		 color: white;
+	  }
+
+	  .row{
+		width:max-content;
+	display: block;
+margin-left: auto;
+margin-right:auto;
+
 	  }
