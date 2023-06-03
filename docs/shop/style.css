@@ -195,8 +195,8 @@ h1	{
 		
 	}
 	.row text{
-		color: white;
-		background-color: black;
+		color: black;
+		
 		display: flex;
 		justify-content: center;
 
@@ -205,16 +205,19 @@ h1	{
 
 	#shop_one{ 
 		background-image: url(images/adam_poster.png);
-		
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
 	}
 
 	#shop_one:hover{ 
 		background-image: url(images/adam_two_poster.png);
+		
 	}
 
 	#shop_two{ 
 		background-image: url(images/window_poster.png);
-		
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
 	}
 
 	#shop_two:hover{ 
@@ -222,7 +225,8 @@ h1	{
 	}
 	#shop_three{ 
 		background-image: url(images/cabeswater_poster.png);
-		
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
 	}
 
 	#shop_three:hover{ 
@@ -231,6 +235,8 @@ h1	{
 
 	#shop_four { 
 		background-image: url(images/horse_misc.png);
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
 	}
 
 	#shop_four:hover{ 
@@ -238,6 +244,8 @@ h1	{
 	}
 	#shop_five{ 
 		background-image: url(images/home_poster.png);
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
 	}
 
 	#shop_five:hover{ 
@@ -246,6 +254,8 @@ h1	{
 
 	#shop_six{ 
 		background-image: url(images/calendar_misc.png);
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
 	}
 
 	#shop_six:hover{ 
@@ -254,6 +264,8 @@ h1	{
 
 	#shop_seven{ 
 		background-image: url(images/lighthouse_comics.png);
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
 	}
 
 	#shop_seven:hover{ 
@@ -261,6 +273,8 @@ h1	{
 	}
 	#shop_eight{ 
 		background-image: url(images/umbra_comics.png);
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
 	}
 
 	#shop_eight:hover{ 
@@ -269,6 +283,8 @@ h1	{
 
 	#shop_nine{ 
 		background-image: url(images/twin_comics.png);
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
 	}
 
 	#shop_nine:hover{ 
@@ -276,6 +292,8 @@ h1	{
 	}
 	#shop_ten{ 
 		background-image: url(images/margin_comic.png);
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
 	}
 
 	#shop_ten:hover{ 
@@ -283,6 +301,8 @@ h1	{
 	}
 	#shop_eleven{ 
 		background-image: url(images/card_misc.png);
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
 	}
 
 	#shop_eleven:hover{ 
@@ -305,6 +325,7 @@ h1	{
 	  /* Create three equal columns that floats next to each other */
 	  .column {
 		display: none; /* Hide columns by default */
+		border: 1px solid black;
 	  }
 	  
 	  
@@ -330,7 +351,6 @@ h1	{
 	  .btn {
 		border: none;
 		outline: none;
-		
 		margin-bottom: 3vmin;
 		background-color: white;
 		cursor: pointer;
