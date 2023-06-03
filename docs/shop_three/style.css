@@ -134,20 +134,6 @@ h1	{
 
 
 
-@media (max-width: 700px) {
-	
-	#scroll-text img{
-		height: 15vmin;
-	}
-	#scroll-text2{
-		top:75vh;
-	}
-	#scroll-text2 img{
-		height: 10vmin;
-		}
-		
-	
-  }
 
 
   .all_type{
@@ -180,7 +166,7 @@ h1	{
 		
 	  }
 	  .misc_type:hover{
-		background-color:rgb(253,141,255);
+		background-color:rgb(37,183,123);
 	  }
 	
 
@@ -202,7 +188,6 @@ h1	{
 		display:grid;
 		border-radius: 3px;
 		text-align: center;
-		width: max-content;
 		background: url("images/cabeswater_poster.png");
 		background-position: center;
 		background-size: cover;
@@ -320,7 +305,6 @@ h1	{
 	
 	  /* Create three equal columns that floats next to each other */
 	  .column {
-	
 		display: none; /* Hide columns by default */
 	  }
 	  
@@ -347,7 +331,8 @@ h1	{
 	  .btn {
 		border: none;
 		outline: none;
-		padding: 12px 16px;
+		margin-top:5vmin;
+		margin-bottom: 3vmin;
 		background-color: white;
 		cursor: pointer;
 	  }
@@ -361,10 +346,33 @@ h1	{
 		 color: white;
 	  }
 
+
+	  @media (min-width: 700px){
 	  .row{
-		width:max-content;
+	width:max-content;
 	display: block;
 margin-left: auto;
 margin-right:auto;
 
 	  }
+	}
+
+@media (max-width: 700px) {
+	
+	#scroll-text img{
+		height: 15vmin;
+	}
+	#scroll-text2{
+		top:75vh;
+	}
+	#scroll-text2 img{
+		height: 10vmin;
+		}
+
+		.row img{
+			height: 99vmin;
+		}
+	.row{
+		width: 100%;
+	}
+  }
