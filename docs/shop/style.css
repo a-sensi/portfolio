@@ -174,14 +174,14 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
 
 
 		 .row {
-			border: 1px solid lightgray;
+			border: 1px solid black;
 			display: grid;
 			flex-wrap: wrap;
 			overflow: scroll;
 			scroll-snap-type: both mandatory;
 			scroll-padding: 1rem;
-	  justify-content: center;
-  height: 90vh;
+	  		justify-content: center;
+  			height: 90vh;
 	} 
 	
 	.row img{
