@@ -131,10 +131,34 @@ h1	{
 
 
 
+li {
+	scroll-snap-align: center;
+	display: inline-block;
+	height: 83vh;
+	border-radius: 3px;
+	font-size: 0;
+	margin-right: 3rem;
+	/* margin-top: 7vmin; */
+}
 
 
-
-
+@media (max-width: 700px) {
+	
+	#scroll-text img{
+		height: 15vmin;
+	}
+	#scroll-text2{
+		top:75vh;
+	}
+	#scroll-text2 img{
+		height: 10vmin;
+		}
+		
+	li img{
+		height: 75%; 
+	}
+	
+  }
 
   .all_type{
 	height: 6vmin;
@@ -144,11 +168,12 @@ h1	{
 	background-color:rgb(161,222,255);
   }
   
-  .comics_type{
+
+  #star img{
 	height: 6vmin;
-	margin-right: 3vmin;
+margin-right: 3vmin;
   }
-	.comics_type:hover{
+#star:hover img{
 	background-color: rgb(195,239,30);
 	}
 .poster_type{
@@ -166,127 +191,140 @@ h1	{
 		
 	  }
 	  .misc_type:hover{
-		background-color:rgb(37,183,123);
+		background-color:rgb(253,141,255);
 	  }
 	
 
-
-		 .row {
-			border: 1px solid lightgray;
-			display: grid;
-			flex-wrap: wrap;
-			overflow: scroll;
-			height: 90vh;
-			scroll-snap-type: both mandatory;
-			scroll-padding: 1rem;
-	  justify-content: center;
+	  .gallery {
+		border: 1px solid lightgray;
+		padding: 1rem;
+		display: grid;
+		grid-template-columns: repeat(3, 50vmin);
+		grid-template-rows: repeat(10, 50vmin);
+		grid-column-gap: 5rem;
+		grid-row-gap: 5rem;
+		flex-wrap: wrap;
+		overflow: scroll;
+		height: 90vh;
+		scroll-snap-type: both mandatory;
+		scroll-padding: 1rem;
+  justify-content: center;
   
-	} 
+	}
 	
-	.row img{
+	li {
 		scroll-snap-align: start;
 		display:grid;
 		border-radius: 3px;
+		font-size: 10px;
+		color:green;
 		text-align: center;
-		background: url("images/cabeswater_poster.png");
-		background-position: center;
-		background-size: cover;
-		height:70vmin;
-		padding:3vmin;
-		
+		float: right;
+		width: max-content;
+		border: 3px solid green;
+		height: max-content
 	}
-	.row text{
+	li text{
 		color: white;
 		background-color: black;
 		display: flex;
 		justify-content: center;
-
+	
 		
 	}
+	.gallery img{
+		height:60vmin;
+		background: url("images/cabeswater_poster.png");
+		background-position: center;
+		background-size: cover;
+		
+	
+	}
 
-	#shop_one{ 
+	#shop_one img{ 
 		background-image: url(images/adam_poster.png);
-		
 	}
 
-	#shop_one:hover{ 
+	
+
+	#shop_one img:hover{ 
 		background-image: url(images/adam_two_poster.png);
 	}
 
-	#shop_two{ 
+	#shop_two img{ 
 		background-image: url(images/window_poster.png);
 		
 	}
 
-	#shop_two:hover{ 
+	#shop_two img:hover{ 
 		background-image: url(images/#.png);
 	}
-	#shop_three{ 
+	#shop_three img{ 
 		background-image: url(images/cabeswater_poster.png);
 		
 	}
 
-	#shop_three:hover{ 
+	#shop_three img:hover{ 
 		background-image: url(images/#.png);
 	}
 
-	#shop_four { 
+	#shop_four img{ 
 		background-image: url(images/horse_misc.png);
 	}
 
-	#shop_four:hover{ 
+	#shop_four img:hover{ 
 		background-image: url(images/#.png);
 	}
-	#shop_five{ 
+	#shop_five img{ 
 		background-image: url(images/home_poster.png);
 	}
 
-	#shop_five:hover{ 
+	#shop_five img:hover{ 
 		background-image: url(images/#.png);
 	}
 
-	#shop_six{ 
+	#shop_six img{ 
 		background-image: url(images/calendar_misc.png);
 	}
 
-	#shop_six:hover{ 
+	#shop_six img:hover{ 
 		background-image: url(images/#.png);
 	}
 
-	#shop_seven{ 
+	#shop_seven img{ 
 		background-image: url(images/lighthouse_comics.png);
 	}
 
-	#shop_seven:hover{ 
+	#shop_seven img:hover{ 
 		background-image: url(images/lighthouse_one_comcis.png);
 	}
-	#shop_eight{ 
+	#shop_eight img{ 
 		background-image: url(images/umbra_comics.png);
 	}
 
-	#shop_eight:hover{ 
+	#shop_eight img:hover{ 
 		background-image: url(images/umbra_one_comics.png);
 	}
 
-	#shop_nine{ 
+	#shop_nine img{ 
 		background-image: url(images/twin_comics.png);
 	}
 
-	#shop_nine:hover{ 
+	#shop_nine img:hover{ 
 		background-image: url(images/twin_one_comics.png);
 	}
-	#shop_ten{ 
+	#shop_ten img{ 
 		background-image: url(images/margin_comic.png);
 	}
 
-	#shop_ten:hover{ 
+	#shop_ten img:hover{ 
 		background-image: url(images/margin_one_comic.png);
 	}
-	#shop_eleven{ 
+	#shop_eleven img{ 
 		background-image: url(images/card_misc.png);
 	}
 
-	#shop_eleven:hover{ 
+	#shop_eleven img:hover{ 
 		background-image: url(images/card_one_misc.png);
 	}
 	
@@ -296,83 +334,26 @@ h1	{
 
 	
 	
-	  
-
-
-
-
-	  
+	@media (max-width: 1000px) {
+		.gallery {
+		grid-template-columns: repeat(3, 30vw);}
+		
+	  }
+	  @media (max-width: 800px) {
+		.gallery {
+		grid-template-columns: repeat(2, 30vw);}
+		
+	  }
+	  @media (max-width: 700px) {
+		.gallery {
+		grid-template-columns: repeat(1, 30vw);
+		grid-template-rows: repeat(10, 65vmin);
+	}
 	
-	  /* Create three equal columns that floats next to each other */
-	  .column {
-		display: none; /* Hide columns by default */
-	  }
-	  
-	  
-	  /* Clear floats after rows */
-	  .row:after {
-		content: "";
-		display: table;
-		clear: both;
-	  } 
-	  
-	  /* Content */
-	  .content {
-		background-color: white;
-		padding: 10px;
-	  }
-	  
-	  /* The "show" class is added to the filtered elements */
-	  .show {
-		display: block;
-	  }
-	  
-	  /* Style the buttons */
-	  .btn {
-		border: none;
-		outline: none;
-		margin-top:5vmin;
-		margin-bottom: 3vmin;
-		background-color: white;
-		cursor: pointer;
-	  }
-	  
-	  /* Add a grey background color on mouse-over */
-	  
-	  
-	  /* Add a dark background color to the active button */
-	  .btn.active img{
-		background-color: rgb(244,177,244);
-		 color: white;
-	  }
-
-
-	  @media (min-width: 700px){
-	  .row{
-	width:max-content;
-	display: block;
-margin-left: auto;
-margin-right:auto;
-
-	  }
+	.gallery img{
+		height:70vmin;
+		padding:3vmin;
 	}
-
-@media (max-width: 700px) {
-	
-	#scroll-text img{
-		height: 15vmin;
-	}
-	#scroll-text2{
-		top:75vh;
-	}
-	#scroll-text2 img{
-		height: 10vmin;
-		}
-
-		.row img{
-			height: 99vmin;
-		}
-	.row{
-		width: 100%;
-	}
-  }
+		
+	  }
+	  
