@@ -357,7 +357,7 @@ h1	{
 	  
 	  /* Add a dark background color to the active button */
 	  .btn.active img{
-		background-color: hotpink;
+		background-color: rgb(244,177,244);
 		 color: white;
 	  }
 
