@@ -311,7 +311,25 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
 		background-image: url(images/card_one_misc.png);
 	}
 	
+	#shop_twelve{ 
+		background-image: url(images/knight_poster.png);
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+	}
 
+	#shop_twelve:hover{ 
+		background-image: url(images/#.png);
+	}
+	#shop_thirteen{ 
+		background-image: url(images/small_home_poster.png);
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+	}
+
+	#shop_thirteen:hover{ 
+		background-image: url(images/#.png);
+	}
+	
 	
 	
 
