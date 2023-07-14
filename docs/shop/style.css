@@ -32,8 +32,8 @@ h1	{
 	border-radius: 5px;
 	height:100vh;
 	overflow:hidden;
-	background: rgb(238,174,202);
-background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 28%, rgba(255,255,255,1) 58%);
+	/* background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 28%, rgba(255,255,255,1) 58%); */
   }
   
   #scroll-text {
@@ -242,7 +242,7 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
 	}
 
 	#shop_four:hover{ 
-		background-image: url(images/#.png);
+		background-image: url(images/horse_two_misc.png);
 	}
 	#shop_five{ 
 		background-image: url(images/home_poster.png);
@@ -261,7 +261,7 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
 	}
 
 	#shop_six:hover{ 
-		background-image: url(images/#.png);
+		background-image: url(images/calendar_two_bookmark.png);
 	}
 
 	#shop_seven{ 
@@ -318,7 +318,7 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
 	}
 
 	#shop_twelve:hover{ 
-		background-image: url(images/#.png);
+		background-image: url(images/knight_two_poster.png);
 	}
 	#shop_thirteen{ 
 		background-image: url(images/small_home_poster.png);
@@ -327,18 +327,11 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
 	}
 
 	#shop_thirteen:hover{ 
-		background-image: url(images/#.png);
+		background-image: url(images/small_home_two_poster.png);
 	}
 	
 	
 	
-
-	
-	
-	  
-
-
-
 
 	  
 	
