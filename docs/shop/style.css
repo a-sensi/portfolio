@@ -409,11 +409,3 @@ margin-right:auto;
 	}
   }
 
-
-  #cart{
-	position: fixed;
-	z-index: 999;
-	right: 5vh;
-	top:6vh;
-	}
-  
