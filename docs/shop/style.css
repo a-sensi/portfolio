@@ -408,3 +408,12 @@ margin-right:auto;
 		width: 100%;
 	}
   }
+
+
+  #cart{
+	position: fixed;
+	z-index: 999;
+	right: 5vh;
+	top:6vh;
+	}
+  
