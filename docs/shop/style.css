@@ -226,18 +226,18 @@ z-index: 999;
 		transition-timing-function: ease-in-out;
 	}
 
-	#shop_two:hover{ 
+	/* #shop_two:hover{ 
 		background-image: url(images/#.png);
-	}
+	} */
 	#shop_three{ 
 		background-image: url(images/cabeswater_poster.png);
 		transition-duration:200ms;
 		transition-timing-function: ease-in-out;
 	}
 
-	#shop_three:hover{ 
+	/* #shop_three:hover{ 
 		background-image: url(images/#.png);
-	}
+	} */
 
 	#shop_four { 
 		background-image: url(images/horse_misc.png);
@@ -254,9 +254,9 @@ z-index: 999;
 		transition-timing-function: ease-in-out;
 	}
 
-	#shop_five:hover{ 
+	/* #shop_five:hover{ 
 		background-image: url(images/#.png);
-	}
+	} */
 
 	#shop_six{ 
 		background-image: url(images/calendar_misc.png);
@@ -342,11 +342,30 @@ z-index: 999;
 	}
 
 
-	
-	
-	
+	#shop_fifteen{ 
+		background-image: url(images/pumpkin_poster.jpg);
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+	}
 
-	  
+	#shop_sixteen{ 
+		background-image: url(images/sunbeast_poster.jpg);
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+	}
+
+	#shop_seventeen{ 
+		background-image: url(images/STAR_POSTER.jpg);
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+	}
+
+	#shop_eighteen{ 
+		background-image: url(images/seelie_poster.jpg);
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+	}
+
 	
 	  /* Create three equal columns that floats next to each other */
 	  .column {
