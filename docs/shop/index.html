@@ -327,7 +327,257 @@
 </script>
         </div>
       </div>
-      
+      <div class="column posters">
+        <div class="content">
+          <img id="shop_sixteen" src="images/base.png" alt="posters">
+          <text>SUNBEAST ⭑ $15.00</text>
+          <div id='product-component-1691452837180'></div>
+    <script type="text/javascript">
+    /*<![CDATA[*/
+    (function () {
+    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+    if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+    } else {
+    loadScript();
+    }
+    function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+    }
+    function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: '335a99-3.myshopify.com',
+      storefrontAccessToken: 'b615846bb65078f165f70591379dc3f4',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '8641162969361',
+        node: document.getElementById('product-component-1691452837180'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+    "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px"
+        },
+        "text-align": "right"
+      },
+      "button": {
+        "font-weight": "bold",
+        "color": "#050505",
+        ":hover": {
+          "color": "#050505",
+          "background-color": "#dc9fdc"
+        },
+        "background-color": "#f4b1f4",
+        ":focus": {
+          "background-color": "#dc9fdc"
+        },
+        "border-radius": "0px",
+        "padding-left": "16px",
+        "padding-right": "16px"
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "img": false,
+      "title": false,
+      "price": false,
+      "options": false
+    },
+    "text": {
+      "button": "View Product"
+    }
+    },
+    "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+    },
+    "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-weight": "bold",
+        "color": "#050505",
+        ":hover": {
+          "color": "#050505",
+          "background-color": "#dc9fdc"
+        },
+        "background-color": "#f4b1f4",
+        ":focus": {
+          "background-color": "#dc9fdc"
+        },
+        "border-radius": "0px",
+        "padding-left": "16px",
+        "padding-right": "16px"
+      }
+    },
+    "text": {
+      "button": "Add to cart"
+    }
+    },
+    "option": {},
+    "cart": {
+    "styles": {
+      "button": {
+        "font-weight": "bold",
+        "color": "#050505",
+        ":hover": {
+          "color": "#050505",
+          "background-color": "#dc9fdc"
+        },
+        "background-color": "#f4b1f4",
+        ":focus": {
+          "background-color": "#dc9fdc"
+        },
+        "border-radius": "0px"
+      },
+      "title": {
+        "color": "#000000"
+      },
+      "header": {
+        "color": "#000000"
+      },
+      "lineItems": {
+        "color": "#000000"
+      },
+      "subtotalText": {
+        "color": "#000000"
+      },
+      "subtotal": {
+        "color": "#000000"
+      },
+      "notice": {
+        "color": "#000000"
+      },
+      "currency": {
+        "color": "#000000"
+      },
+      "close": {
+        "color": "#000000",
+        ":hover": {
+          "color": "#000000"
+        }
+      },
+      "empty": {
+        "color": "#000000"
+      },
+      "noteDescription": {
+        "color": "#000000"
+      },
+      "discountText": {
+        "color": "#000000"
+      },
+      "discountIcon": {
+        "fill": "#000000"
+      },
+      "discountAmount": {
+        "color": "#000000"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    }
+    },
+    "toggle": {
+    "styles": {
+      "toggle": {
+        "font-weight": "bold",
+        "background-color": "#f4b1f4",
+        ":hover": {
+          "background-color": "#dc9fdc"
+        },
+        ":focus": {
+          "background-color": "#dc9fdc"
+        }
+      },
+      "count": {
+        "color": "#050505",
+        ":hover": {
+          "color": "#050505"
+        }
+      },
+      "iconPath": {
+        "fill": "#050505"
+      }
+    }
+    },
+    "lineItem": {
+    "styles": {
+      "variantTitle": {
+        "color": "#000000"
+      },
+      "title": {
+        "color": "#000000"
+      },
+      "price": {
+        "color": "#000000"
+      },
+      "fullPrice": {
+        "color": "#000000"
+      },
+      "discount": {
+        "color": "#000000"
+      },
+      "discountIcon": {
+        "fill": "#000000"
+      },
+      "quantity": {
+        "color": "#000000"
+      },
+      "quantityIncrement": {
+        "color": "#000000",
+        "border-color": "#000000"
+      },
+      "quantityDecrement": {
+        "color": "#000000",
+        "border-color": "#000000"
+      },
+      "quantityInput": {
+        "color": "#000000",
+        "border-color": "#000000"
+      }
+    }
+    }
+    },
+      });
+    });
+    }
+    })();
+    /*]]>*/
+    </script>
+        </div>
+      </div>
+    
       <div class="column comics">
         <div class="content">
           <img id="shop_eight" src="images/base.png" alt="comics">
