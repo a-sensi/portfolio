@@ -379,14 +379,12 @@ z-index: 999;
 	
 	#shop_nineteen{ 
 		background-image: url(images/snoopy_stickers_MISC.png);
-		transition-duration:200ms;
-		transition-timing-function: ease-in-out;
+	
 	}
 
 	#shop_twenty{ 
 		background-image: url(images/fish_stickers_misc.png);
-		transition-duration:200ms;
-		transition-timing-function: ease-in-out;
+		
 	}
 
 	
