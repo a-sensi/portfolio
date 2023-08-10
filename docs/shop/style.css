@@ -226,18 +226,18 @@ z-index: 999;
 		transition-timing-function: ease-in-out;
 	}
 
-	/* #shop_two:hover{ 
-		background-image: url(images/#.png);
-	} */
+	#shop_two:hover{ 
+		background-image: url(images/window_ONE_poster.png);
+	}
 	#shop_three{ 
 		background-image: url(images/cabeswater_poster.png);
 		transition-duration:200ms;
 		transition-timing-function: ease-in-out;
 	}
 
-	/* #shop_three:hover{ 
-		background-image: url(images/#.png);
-	} */
+	#shop_three:hover{ 
+		background-image: url(images/cabeswater_one_poster.png);
+	}
 
 	#shop_four { 
 		background-image: url(images/horse_misc.png);
@@ -254,9 +254,9 @@ z-index: 999;
 		transition-timing-function: ease-in-out;
 	}
 
-	/* #shop_five:hover{ 
-		background-image: url(images/#.png);
-	} */
+	#shop_five:hover{ 
+		background-image: url(images/home_one_poster.png);
+	}
 
 	#shop_six{ 
 		background-image: url(images/calendar_misc.png);
@@ -321,18 +321,18 @@ z-index: 999;
 		transition-timing-function: ease-in-out;
 	}
 
-	#shop_twelve:hover{ 
+	/* #shop_twelve:hover{ 
 		background-image: url(images/knight_two_poster.png);
-	}
+	} */
 	#shop_thirteen{ 
 		background-image: url(images/small_home_poster.png);
 		transition-duration:200ms;
 		transition-timing-function: ease-in-out;
 	}
 
-	#shop_thirteen:hover{ 
+	/* #shop_thirteen:hover{ 
 		background-image: url(images/small_home_two_poster.png);
-	}
+	} */
 	
 	
 	#shop_fourteen{ 
@@ -348,11 +348,19 @@ z-index: 999;
 		transition-timing-function: ease-in-out;
 	}
 
+#shop_fifteen:hover{ 
+		background-image: url(images/pumpkin_one_poster.png);
+	}
+	
 	#shop_sixteen{ 
 		background-image: url(images/sunbeast_poster.jpg);
 		transition-duration:200ms;
 		transition-timing-function: ease-in-out;
 	}
+	#shop_sixteen:hover{ 
+		background-image: url(images/sunbeast_one_poster.jpg);
+	}
+	
 
 	#shop_seventeen{ 
 		background-image: url(images/STAR_POSTER.jpg);
@@ -362,6 +370,21 @@ z-index: 999;
 
 	#shop_eighteen{ 
 		background-image: url(images/seelie_poster.jpg);
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+	}
+	#shop_eighteen:hover{ 
+		background-image: url(images/seelie_one_poster.png);
+	}
+	
+	#shop_nineteen{ 
+		background-image: url(images/snoopy_stickers_MISC.png);
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+	}
+
+	#shop_twenty{ 
+		background-image: url(images/fish_stickers_misc.png);
 		transition-duration:200ms;
 		transition-timing-function: ease-in-out;
 	}
