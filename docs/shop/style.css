@@ -193,7 +193,7 @@ z-index: 999;
 		display:grid;
 		border-radius: 3px;
 		text-align: center;
-		background: url("images/cabeswater_poster.png");
+		background: url("images/base.png");
 		background-position: center;
 		background-size: cover;
 		height:70vmin;
