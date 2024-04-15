@@ -387,7 +387,35 @@ z-index: 999;
 		
 	}
 
-	
+	#shop_twentyone{ 
+		background-image: url(images/eight_card_misc_1.png);
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+	}
+	#shop_twentyone:hover{ 
+		background-image: url(images/eight_card_misc_2.png);
+	}
+	#shop_twentytwo{ 
+		background-image: url(images/olive_Card_misc_1.png);
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+	}
+	#shop_twentytwo:hover{ 
+		background-image: url(images/olive_card_misc_2.png);
+	}
+
+	#shop_twentythree{ 
+		background-image: url(images/lighthouse_comics.png);
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+	}
+	#shop_twentythree:hover{ 
+		background-image: url(images/lighthouse_digital_comics_2.png);
+	}
+
+
+
+
 	  /* Create three equal columns that floats next to each other */
 	  .column {
 		display: none; /* Hide columns by default */
