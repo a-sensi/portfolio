@@ -413,6 +413,77 @@ z-index: 999;
 		background-image: url(images/lighthouse_digital_comics_2.png);
 	}
 
+	#shop_twentyfour{ 
+		
+		background-image: url(images/braids_1.png);
+
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+		
+	}
+	#shop_twentyfour:hover{ 
+		background-image: url(images/braids_2.png);
+	}
+	#shop_twentyfive{ 
+		
+		background-image: url(images/medusa_1.png);
+
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+		
+	}
+	#shop_twentyfive:hover{ 
+		background-image: url(images/medusa_1a.png);
+	}
+	#shop_twentysix{ 
+		
+		background-image: url(images/medusa_2.png);
+
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+		
+	}
+	#shop_twentysix:hover{ 
+		background-image: url(images/medusa_2a.png);
+	}
+
+	#shop_twentyseven{ 
+		
+		background-image: url(images/medusa_3.png);
+
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+		
+	}
+	#shop_twentyseven:hover{ 
+		background-image: url(images/medusa_3a.png);
+	}
+	#shop_twentyeight{ 
+		
+		background-image: url(images/medusa_4.png);
+
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+		
+	}
+	#shop_twentyeight:hover{ 
+		background-image: url(images/medusa_4a.png);
+	}
+
+
+	#shop_twentynine{ 
+		
+		background-image: url(images/medusa_print.png);
+
+		transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+		
+	}
+	#shop_twentynine:hover{ 
+		background-image: url(images/medusa_print1.png);
+	}
+
+
 
 
 
