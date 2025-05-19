@@ -484,8 +484,48 @@ z-index: 999;
 	}
 
 
+#shop_thirty{
+	background-image: url(images/lighthouse1_misc\ copy.jpg);
+	transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+}
+#shop_thirty:hover{
+	background-image: url(images/lighthouse2_misc.jpg);
+}
+#shop_thirtyone{
+	background-image: url(images/sleeping1_misc.png);
+	transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+}
+#shop_thirtyone:hover{
+	background-image: url(images/sleeping2_misc.jpg);
+}
+#shop_thirtytwo{
+	background-image: url(images/ghost1_print.jpg);
+	transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+}
+#shop_thirtytwo:hover{
+	background-image: url(images/ghost2_print.jpg);
+}
 
+#shop_thirtythree{
+	background-image: url(images/swan1_print.jpg);
+	transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+}
+#shop_thirtythree:hover{
+	background-image: url(images/swan2_print.jpg);
+}
 
+#shop_thirtyfour{
+	background-image: url(images/sunbeast_poster.jpg);
+	transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+}
+#shop_thirtyfour:hover{
+	background-image: url(images/sunbeast_one_poster.jpg);
+}
 
 	  /* Create three equal columns that floats next to each other */
 	  .column {
