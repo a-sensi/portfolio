@@ -539,6 +539,11 @@ z-index: 999;
 #shop_thirtysix:hover{
 	background-image: url(images/lucy_print_1.png);
 }
+#shop_thirtyseven{
+	background-image: url(images/snakes_b1.png);
+	transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+}
 	  /* Create three equal columns that floats next to each other */
 	  .column {
 		display: none; /* Hide columns by default */
