@@ -526,7 +526,19 @@ z-index: 999;
 #shop_thirtyfour:hover{
 	background-image: url(images/sunbeast_one_poster.jpg);
 }
-
+#shop_thirtyfive{
+	background-image: url(images/riso_zine_buttons.png);
+	transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+}
+#shop_thirtysix{
+	background-image: url(images/lucy_print.png);
+	transition-duration:200ms;
+		transition-timing-function: ease-in-out;
+}
+#shop_thirtysix:hover{
+	background-image: url(images/lucy_print_1.png);
+}
 	  /* Create three equal columns that floats next to each other */
 	  .column {
 		display: none; /* Hide columns by default */
