@@ -15,7 +15,7 @@ img{
     display: flex;
     flex: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: top;
 }
 
 .column{
@@ -38,8 +38,8 @@ img{
 .home{
     position: relative;
   
-    width: 50%;
-    margin: 2vmin;
+    width: 100%;
+   
     
    }
 
